@@ -1,0 +1,176 @@
+const net = require('net');
+const Parser = require('teltonika-parser-ex');
+const binutils = require('binutils64');
+const mysql = require("mysql");
+const util = require("util");
+
+// Create a MySQL connection
+const connection = mysql.createConnection({
+  host: "localhost",
+  port: "3306",
+  user: "cartrackingdvs",
+  password: "63p85x:RsU+A/Dd(e7",
+  database: "car_trucking",
+});
+
+connection.connect((error) => {
+  if (error) throw error;
+  console.log("Successfully connected to the database.");
+});
+
+const query = util.promisify(connection.query).bind(connection);
+
+// Create server
+let server = net.createServer((c) => {
+  console.log("Client connected");
+
+  let imei;
+  let intervalId = null;
+  let previousIgnition = null;
+  let codeunique = generateUniqueCode(); // Unique code for the current session
+
+  function generateUniqueCode() {
+    const timestamp = new Date().getTime().toString(16);
+    const randomNum = Math.floor(Math.random() * 1000);
+    return timestamp + randomNum;
+  }
+
+  c.on('end', () => {
+    console.log("Client disconnected");
+    if (intervalId) {
+      clearInterval(intervalId);
+      intervalId = null;
+    }
+  });
+
+  c.on('data', async (data) => {
+    try {
+      let buffer = data;
+      let parser = new Parser(buffer);
+
+      if (parser.isImei) {
+        imei = parser.imei;
+        console.log("IMEI:", imei);
+        c.write(Buffer.alloc(1, 1)); // Send ACK for IMEI
+      } else {
+        let avl = parser.getAvl();
+        let donneGps = avl?.records?.map(({ gps, timestamp, ioElements }) => {
+          return { gps, timestamp, ioElements };
+        });
+
+        if (donneGps) {
+          let detail = donneGps[0].gps;
+          let ignition = donneGps[0].ioElements[0]?.value; // Assuming ignition is the first IO element
+          let mouvement = donneGps[0].ioElements[1]?.value; // Assuming mouvement is the second IO element
+
+          if (detail.latitude !== 0 && detail.longitude !== 0) {
+            const detailsData = [
+              detail.latitude,
+              detail.longitude,
+              detail.altitude,
+              detail.angle,
+              detail.satellites,
+              detail.speed,
+              ignition,
+              mouvement,
+              donneGps[0].ioElements[2]?.value,
+              donneGps[0].ioElements[5]?.value,
+              imei,
+              JSON.stringify(donneGps),
+              codeunique, // Use the same unique code for both ignition 0 records
+            ];
+
+            // Check ignition state changes
+            if (ignition === 1 && previousIgnition === 0) {
+              // Ignition turned ON
+              // Save one record with ignition at 0 when turning ON
+              const ignition0Code = codeunique; // Use the same unique code for ignition 0
+              await query(
+                'INSERT INTO tracking_data(latitude, longitude, altitude, angle, satellites, vitesse, ignition, mouvement, gnss_statut, CEINTURE, device_uid, json, CODE_COURSE) VALUES ?',
+                [[
+                  [
+                    detail.latitude,
+                    detail.longitude,
+                    detail.altitude,
+                    detail.angle,
+                    detail.satellites,
+                    detail.speed,
+                    0, // Ignition state is 0
+                    mouvement,
+                    donneGps[0].ioElements[2]?.value,
+                    donneGps[0].ioElements[5]?.value,
+                    imei,
+                    JSON.stringify(donneGps),
+                    ignition0Code, // Use the same unique code for ignition 0
+                  ]
+                ]]
+              );
+              console.log("Saved initial state with ignition 0 on turning on.");
+
+              // Start interval to collect data every 5 seconds
+              if (intervalId) {
+                clearInterval(intervalId);
+              }
+              intervalId = setInterval(async () => {
+                if (mouvement === 1) { // Only save data if moving
+                  await query(
+                    'INSERT INTO tracking_data(latitude, longitude, altitude, angle, satellites, vitesse, ignition, mouvement, gnss_statut, CEINTURE, device_uid, json, CODE_COURSE) VALUES ?',
+                    [[detailsData]]
+                  );
+                  console.log("Inserted data with ignition 1.");
+                }
+              }, 5000);
+            } else if (ignition === 0 && previousIgnition === 1) {
+              // Ignition turned OFF
+              // Save last record with ignition set to 0
+              const ignition0Code = codeunique; // Use the same unique code for ignition 0
+              await query(
+                'INSERT INTO tracking_data(latitude, longitude, altitude, angle, satellites, vitesse, ignition, mouvement, gnss_statut, CEINTURE, device_uid, json, CODE_COURSE) VALUES ?',
+                [[
+                  detail.latitude,
+                  detail.longitude,
+                  detail.altitude,
+                  detail.angle,
+                  detail.satellites,
+                  detail.speed,
+                  0, // Ignition state is 0
+                  mouvement,
+                  donneGps[0].ioElements[2]?.value,
+                  donneGps[0].ioElements[5]?.value,
+                  imei,
+                  JSON.stringify(donneGps),
+                  ignition0Code // Use the same unique code for ignition 0
+                ]]
+              );
+              console.log("Inserted data with ignition 0 on turning off.");
+
+              // Stop interval when ignition turns off
+              if (intervalId) {
+                clearInterval(intervalId);
+                intervalId = null;
+              }
+
+              // Generate a new unique code for the next session
+              codeunique = generateUniqueCode();
+            }
+
+            previousIgnition = ignition; // Update the previous ignition state
+          } else {
+            console.log("Lat, Lon is 0, no insertion");
+          }
+        }
+
+        let writer = new binutils.BinaryWriter();
+        writer.WriteInt32(avl.number_of_data);
+        let response = writer.ByteBuffer;
+        c.write(response); // send ACK for AVL DATA
+      }
+    } catch (error) {
+      console.error("Error processing data:", error);
+    }
+  });
+});
+
+server.listen(2354, '141.94.194.193', () => {
+  console.log("Server started on port 2354");
+});
