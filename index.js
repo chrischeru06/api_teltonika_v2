@@ -85,6 +85,28 @@ const io = new Server(server, {
   cors: { origin: "*" }
 });
 
+
+// HTTP
+
+app.get('/api/last-trajets', async (req, res) => {
+  try {
+    const [rows] = await db.execute(`
+      SELECT DEVICE_UID, TRIP_START, TRIP_END, PATH_FILE, LATITUDE, LONGITUDE
+      FROM (
+        SELECT *,
+               ROW_NUMBER() OVER (PARTITION BY DEVICE_UID ORDER BY TRIP_END DESC) AS rn
+        FROM path_histo_trajet_geojson
+      ) AS t
+      WHERE t.rn = 1
+    `);
+    res.status(200).json(rows);
+  } catch (err) {
+    logger.error('Erreur récupération dernier trajet par appareil:', err.message);
+    res.status(500).json({ message: 'Erreur serveur' });
+  }
+});
+
+
 io.on('connection', socket => {
   logger.info('Socket.IO client connected');
 
