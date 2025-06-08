@@ -5,3 +5,42 @@
 {"level":"info","message":"Trip saved: /var/www/html/IMEI/352016700394133/trip_2025-06-08T11-16-13-647Z_linestring.geojson","timestamp":"2025-06-08T11:16:13.647Z"}
 {"level":"info","message":"Trip saved: /var/www/html/IMEI/352016700394133/trip_2025-06-08T11-16-44-013Z_linestring.geojson","timestamp":"2025-06-08T11:16:44.013Z"}
 {"level":"info","message":"Trip saved: /var/www/html/IMEI/352016700394133/trip_2025-06-08T11-16-51-345Z_linestring.geojson","timestamp":"2025-06-08T11:16:51.346Z"}
+{"code":"ECONNRESET","errno":-104,"level":"error","message":"Socket error: read ECONNRESET","stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)","syscall":"read","timestamp":"2025-06-08T11:43:14.827Z"}
+{"level":"info","message":"TCP client connected","timestamp":"2025-06-08T11:48:53.923Z"}
+{"level":"info","message":"TCP client connected","timestamp":"2025-06-08T12:24:22.749Z"}
+{"level":"info","message":"Trip saved: /var/www/html/IMEI/350612073174755/trip_2025-06-08T13-16-45-167Z_linestring.geojson","timestamp":"2025-06-08T13:16:45.167Z"}
+{"level":"info","message":"Trip saved: /var/www/html/IMEI/350612073174755/trip_2025-06-08T13-19-15-775Z_linestring.geojson","timestamp":"2025-06-08T13:19:15.776Z"}
+{"level":"info","message":"Trip saved: /var/www/html/IMEI/350612073174755/trip_2025-06-08T13-21-02-290Z_linestring.geojson","timestamp":"2025-06-08T13:21:02.290Z"}
+{"level":"info","message":"Trip saved: /var/www/html/IMEI/350612073174755/trip_2025-06-08T13-38-38-147Z_linestring.geojson","timestamp":"2025-06-08T13:38:38.147Z"}
+{"level":"info","message":"Trip saved: /var/www/html/IMEI/trip_2025-06-08T14-09-12-145Z_linestring.geojson","timestamp":"2025-06-08T14:09:12.145Z"}
+{"level":"info","message":"Trip saved: /var/www/html/IMEI/trip_2025-06-08T14-13-09-031Z_linestring.geojson","timestamp":"2025-06-08T14:13:09.031Z"}
+{"level":"info","message":"Trip saved: /var/www/html/IMEI/trip_2025-06-08T14-37-00-826Z_linestring.geojson","timestamp":"2025-06-08T14:37:00.827Z"}
+{"level":"info","message":"TCP Server running on port 2354","timestamp":"2025-06-08T15:40:24.062Z"}
+{"level":"info","message":"MySQL pool created","timestamp":"2025-06-08T15:40:24.064Z"}
+{"level":"info","message":"TCP client connected","timestamp":"2025-06-08T15:40:31.510Z"}
+{"level":"info","message":"TCP client connected","timestamp":"2025-06-08T15:40:32.526Z"}
+{"code":"ECONNRESET","errno":-104,"level":"error","message":"Socket error: read ECONNRESET","stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:216:20)","syscall":"read","timestamp":"2025-06-08T15:51:57.344Z"}
+{"level":"info","message":"TCP client connected","timestamp":"2025-06-08T15:57:35.306Z"}
+{"level":"info","message":"TCP Server running on port 2354","timestamp":"2025-06-08T16:26:16.840Z"}
+{"level":"info","message":"HTTP/WebSocket Server running on port 8000","timestamp":"2025-06-08T16:26:16.842Z"}
+{"level":"info","message":"MySQL pool created","timestamp":"2025-06-08T16:26:16.842Z"}
+{"level":"info","message":"TCP client connected","timestamp":"2025-06-08T16:26:23.651Z"}
+{"level":"info","message":"TCP client connected","timestamp":"2025-06-08T16:26:32.023Z"}
+{"level":"info","message":"Trip saved: /var/www/html/IMEI/352016700394133/trip_2025-06-08T16-26-50-189Z_linestring.geojson","timestamp":"2025-06-08T16:26:50.189Z"}
+{"level":"info","message":"Trip saved: /var/www/html/IMEI/352016700394133/trip_2025-06-08T16-27-07-948Z_linestring.geojson","timestamp":"2025-06-08T16:27:07.948Z"}
+{"level":"info","message":"Trip saved: /var/www/html/IMEI/350612073174755/trip_2025-06-08T16-32-08-074Z_linestring.geojson","timestamp":"2025-06-08T16:32:08.074Z"}
+{"level":"info","message":"Trip saved: /var/www/html/IMEI/350612073174755/trip_2025-06-08T16-44-37-852Z_linestring.geojson","timestamp":"2025-06-08T16:44:37.852Z"}
+{"level":"info","message":"TCP Server running on port 2354","timestamp":"2025-06-08T17:25:44.476Z"}
+{"level":"info","message":"HTTP/WebSocket Server running on port 8000","timestamp":"2025-06-08T17:25:44.478Z"}
+{"level":"info","message":"MySQL pool created","timestamp":"2025-06-08T17:25:44.478Z"}
+{"level":"info","message":"TCP client connected","timestamp":"2025-06-08T17:25:58.184Z"}
+{"level":"info","message":"TCP Server running on port 2354","timestamp":"2025-06-08T17:26:41.126Z"}
+{"level":"info","message":"HTTP/WebSocket Server running on port 8000","timestamp":"2025-06-08T17:26:41.129Z"}
+{"level":"info","message":"MySQL pool created","timestamp":"2025-06-08T17:26:41.130Z"}
+{"level":"info","message":"TCP client connected","timestamp":"2025-06-08T17:27:22.345Z"}
+{"level":"info","message":"Socket.IO client connected","timestamp":"2025-06-08T17:30:06.967Z"}
+{"level":"info","message":"Socket.IO client connected","timestamp":"2025-06-08T17:31:25.718Z"}
+{"level":"info","message":"Socket.IO client connected","timestamp":"2025-06-08T17:32:16.855Z"}
+{"level":"info","message":"Socket.IO client connected","timestamp":"2025-06-08T17:33:35.081Z"}
+{"level":"info","message":"Socket.IO client connected","timestamp":"2025-06-08T17:34:18.603Z"}
+{"level":"info","message":"Socket.IO client connected","timestamp":"2025-06-08T17:36:36.759Z"}
