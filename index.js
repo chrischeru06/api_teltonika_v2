@@ -7,15 +7,18 @@ const winston = require('winston');
 const express = require('express');
 const http = require('http');
 const { Server } = require('socket.io');
+const cors = require('cors');
 
 const TCP_PORT = 2354;
 const HTTP_PORT = 8000;
 const TCP_TIMEOUT = 300000;
-const IMEI_FOLDER_BASE = '/var/www/html/IMEI';
+const IMEI_FOLDER_BASE = '/var/www/html/api_teltonika/IMEI';
 const MAX_GEOJSON_SIZE = 100 * 1024 * 1024;
+const IMEI_REGEX = /^\d{15}$/;
 
+// Validate and create base directory
 if (!fs.existsSync(IMEI_FOLDER_BASE)) {
-  fs.mkdirSync(IMEI_FOLDER_BASE, { recursive: true });
+  fs.mkdirSync(IMEI_FOLDER_BASE, { recursive: true, mode: 0o755 });
 }
 
 const deviceState = new Map();
@@ -55,6 +58,7 @@ async function initDbPool() {
 }
 initDbPool();
 
+// === Helper Functions ===
 function toMysqlDatetime(isoDate) {
   return isoDate.replace('T', ' ').replace('Z', '').split('.')[0];
 }
@@ -62,6 +66,31 @@ function toMysqlDatetime(isoDate) {
 function isValidGps(gps) {
   return gps && gps.latitude !== 0 && gps.longitude !== 0 &&
     Math.abs(gps.latitude) <= 90 && Math.abs(gps.longitude) <= 180;
+}
+
+function isValidImei(imei) {
+  return IMEI_REGEX.test(imei);
+}
+
+function getImeiFolder(imei) {
+  if (!isValidImei(imei)) {
+    throw new Error(`Invalid IMEI format: ${imei}`);
+  }
+  const folder = path.join(IMEI_FOLDER_BASE, imei);
+  // Double-check path safety
+  if (!path.resolve(folder).startsWith(path.resolve(IMEI_FOLDER_BASE))) {
+    throw new Error(`Invalid folder path for IMEI: ${imei}`);
+  }
+  return folder;
+}
+
+async function createImeiFolder(imei) {
+  const folder = getImeiFolder(imei);
+  if (!fs.existsSync(folder)) {
+    fs.mkdirSync(folder, { recursive: true, mode: 0o755 });
+    logger.info(`Created folder for IMEI: ${imei}`);
+  }
+  return folder;
 }
 
 async function insertTrackingData(values) {
@@ -78,18 +107,43 @@ async function insertTrackingData(values) {
   }
 }
 
-// === SOCKET.IO ===
+// === Web Server Setup ===
 const app = express();
+app.use(cors());
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: { origin: "*" }
 });
 
+// === Static Files and API Routes ===
+app.use('/media', express.static(IMEI_FOLDER_BASE));
 
-// HTTP
+app.get('/api/get_historiques_trajets/', async (req, res) => {
+  const { device_uid } = req.query;
 
-app.get('/api/last-trajets', async (req, res) => {
+  if (!device_uid || !isValidImei(device_uid)) {
+    return res.status(400).json({ message: 'Valid DEVICE_UID (15 digits) required' });
+  }
+
   try {
+    const [rows] = await db.execute(
+      `SELECT * FROM path_histo_trajet_geojson WHERE DEVICE_UID = ? ORDER BY TRIP_START DESC`,
+      [device_uid]
+    );
+ 
+    if (rows.length === 0) {
+      return res.status(404).json({ message: 'No trips found for this DEVICE_UID' });
+    }
+
+    return res.status(200).json(rows);
+  } catch (error) {
+    logger.error('Error fetching trips:', error);
+    return res.status(500).json({ message: 'Server error' });
+  }
+});
+
+app.get('/api/last-trajets', async (req, res) => { 
+  try {  
     const [rows] = await db.execute(`
       SELECT DEVICE_UID, TRIP_START, TRIP_END, PATH_FILE, LATITUDE, LONGITUDE
       FROM (
@@ -101,17 +155,20 @@ app.get('/api/last-trajets', async (req, res) => {
     `);
     res.status(200).json(rows);
   } catch (err) {
-    logger.error('Erreur récupération dernier trajet par appareil:', err.message);
-    res.status(500).json({ message: 'Erreur serveur' });
+    logger.error('Error fetching last trips:', err.message);
+    res.status(500).json({ message: 'Server error' });
   }
 });
 
-
+// === Socket.IO ===
 io.on('connection', socket => {
   logger.info('Socket.IO client connected');
 
-  // Gestion des abonnements par IMEI
   socket.on('subscribe', imei => {
+    if (!isValidImei(imei)) {
+      logger.warn(`Invalid IMEI subscription attempt: ${imei}`);
+      return;
+    }
     socket.join(imei);
     logger.info(`Client subscribed to IMEI: ${imei}`);
   });
@@ -128,11 +185,21 @@ const tcpServer = net.createServer(socket => {
   let imei = null;
   socket.setTimeout(TCP_TIMEOUT);
 
-  socket.on('timeout', () => socket.end());
-  socket.on('end', () => imei && deviceState.delete(imei));
+  socket.on('timeout', () => {
+    logger.info(`Socket timeout for IMEI: ${imei}`);
+    socket.end();
+  });
+
+  socket.on('end', () => {
+    if (imei) {
+      deviceState.delete(imei);
+      logger.info(`Connection ended for IMEI: ${imei}`);
+    }
+  });
+
   socket.on('error', err => {
-    logger.error('Socket error:', err);
-    imei && deviceState.delete(imei);
+    logger.error(`Socket error for IMEI ${imei}:`, err.message);
+    if (imei) deviceState.delete(imei);
   });
 
   socket.on('data', async data => {
@@ -141,13 +208,22 @@ const tcpServer = net.createServer(socket => {
 
       if (parser.isImei) {
         imei = parser.imei;
-        socket.write(Buffer.from([0x01]));
+        if (!isValidImei(imei)) {
+          logger.error(`Invalid IMEI received: ${imei}`);
+          socket.end();
+          return;
+        }
 
+        socket.write(Buffer.from([0x01]));
         if (!deviceState.has(imei)) {
           deviceState.set(imei, { lastIgnition: null });
-          const folder = path.join(IMEI_FOLDER_BASE, imei);
-          if (!fs.existsSync(folder)) fs.mkdirSync(folder, { recursive: true });
+          await createImeiFolder(imei);
         }
+        return;
+      }
+
+      if (!imei) {
+        logger.warn('Received data before IMEI');
         return;
       }
 
@@ -173,11 +249,9 @@ const tcpServer = net.createServer(socket => {
           gps.angle, gps.satellites, ioData.mouvement, ioData.gnss_statut, imei, ioData.ignition
         ];
 
-        // 🔴 INSERT EN BDD
         await insertTrackingData(values);
 
-        // 🟢 EMETTRE AUX CLIENTS ABONNÉS À CET IMEI
-        io.to(imei).emit('tracking_data', {
+        io.emit('tracking_data', {
           imei,
           latitude: gps.latitude,
           longitude: gps.longitude,
@@ -191,79 +265,87 @@ const tcpServer = net.createServer(socket => {
           gnss_status: ioData.gnss_statut
         });
 
-        // Trajet en cours
+        // Trip handling
         if (ioData.ignition === 1) {
           if (!state.trip) {
             state.trip = { startTime: timestampIso, points: [] };
           }
 
-          // Ajout du point avec les coordonnées 3D
           state.trip.points.push({
             geometry: { 
               type: "Point", 
-              coordinates: [gps.longitude, gps.latitude, gps.altitude] 
+              coordinates: [gps.longitude, gps.latitude] 
             },
             properties: {
               timestamp: timestampIso,
-              speed: gps.speed,
-              angle: gps.angle,
-              satellites: gps.satellites
+              speed: gps.speed ?? 0,
+              angle: gps.angle ?? 0,
+              satellites: gps.satellites ?? 0
             }
           });
         }
 
-        // Fin de trajet
+        // End of trip detection
         const ignitionChanged = state.lastIgnition !== null && state.lastIgnition === 1 && ioData.ignition === 0;
         state.lastIgnition = ioData.ignition;
 
         if (ignitionChanged && state.trip) {
-          const folder = path.join(IMEI_FOLDER_BASE, imei);
-          const dateName = new Date().toISOString().replace(/[:.]/g, '-');
-          const filename = `trip_${dateName}_linestring.geojson`;
-          const filepath = path.join(folder, filename);
+          try {
+            const folder = await createImeiFolder(imei);
+            const dateName = new Date().toISOString().replace(/[:.]/g, '-');
+            const filename = `trip_${dateName}_linestring.geojson`;
+            const filepath = path.join(folder, filename);
 
+            // Final path validation
+            if (!path.resolve(filepath).startsWith(path.resolve(folder))) {
+              throw new Error(`Attempt to write outside IMEI folder: ${filepath}`);
+            }
 
-          // Création du GeoJSON avec les coordonnées 3D
-          const geojson = {
-                        type: "FeatureCollection",
-                        features: state.trip.points.map(p => ({
-                            type: "Feature",
-                            geometry: {
-                            type: "Point",
-                            coordinates: p.geometry.coordinates
-                            },
-                            properties: {
-                            imei,
-                            timestamp: p.timestamp,
-                            speed: p.speed || null
-                            }
-                        }))};
+            const geojson = {
+              type: "FeatureCollection",
+              features: state.trip.points.map(p => ({
+                type: "Feature",
+                geometry: {
+                  type: "Point",
+                  coordinates: p.geometry.coordinates
+                },
+                properties: {
+                  imei,
+                  timestamp: p.properties.timestamp,
+                  speed: p.properties.speed
+                } 
+              }))
+            };
 
-          const geojsonStr = JSON.stringify(geojson, null, 2);
+            const geojsonStr = JSON.stringify(geojson, null, 2);
 
-          if (Buffer.byteLength(geojsonStr) <= MAX_GEOJSON_SIZE) {
-            fs.writeFileSync(filepath, geojsonStr);
-            logger.info(`Trip saved: ${filepath}`);
-            await db.execute(
-              `INSERT INTO path_histo_trajet_geojson (DEVICE_UID, TRIP_START, TRIP_END, PATH_FILE,LATITUDE,LONGITUDE)
-               VALUES (?, ?, ?, ?)`,
-              [imei, state.trip.startTime, timestampIso, filepath, gps.latitude, gps.longitude]
-            );
-            await db.execute('DELETE FROM tracking_data WHERE device_uid = ?', [imei]);
-          } else {
-            logger.warn(`GeoJSON file too large for IMEI ${imei}`);
+            if (Buffer.byteLength(geojsonStr) <= MAX_GEOJSON_SIZE) {
+              fs.writeFileSync(filepath, geojsonStr, { mode: 0o644 });
+              logger.info(`Trip saved: ${filepath}`);
+
+              await db.execute(
+                `INSERT INTO path_histo_trajet_geojson (DEVICE_UID, TRIP_START, TRIP_END, PATH_FILE, LATITUDE, LONGITUDE)
+                 VALUES (?, ?, ?, ?, ?, ?)`,
+                [imei, state.trip.startTime, timestampIso, filepath, gps.latitude, gps.longitude]
+              );
+              await db.execute('DELETE FROM tracking_data WHERE device_uid = ?', [imei]);
+            } else {
+              logger.warn(`GeoJSON file too large for IMEI ${imei}`);
+            }
+          } catch (err) {
+            logger.error(`Error saving trip for IMEI ${imei}:`, err.message);
+          } finally {
+            delete state.trip;
           }
-
-          delete state.trip;
         }
       }
     } catch (err) {
-      logger.error(`Processing error for IMEI ${imei}: ${err.message}`);
+      logger.error(`Processing error for IMEI ${imei}:`, err.message);
     }
   });
 });
 
-// === Lancement des serveurs ===
+// === Server Startup ===
 tcpServer.listen(TCP_PORT, () => {
   logger.info(`TCP Server running on port ${TCP_PORT}`);
 });
@@ -272,3 +354,6 @@ server.listen(HTTP_PORT, () => {
   logger.info(`HTTP/WebSocket Server running on port ${HTTP_PORT}`);
 });
 
+process.on('unhandledRejection', (reason, promise) => {
+  logger.error('Unhandled Rejection at:', promise, 'reason:', reason);
+});
