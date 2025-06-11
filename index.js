@@ -35,7 +35,7 @@ const logger = winston.createLogger({
   ]
 });
 
-// === Base de données ===
+// === Database Configuration ===
 const dbConfig = {
   host: 'localhost',
   user: 'root',
@@ -77,7 +77,6 @@ function getImeiFolder(imei) {
     throw new Error(`Invalid IMEI format: ${imei}`);
   }
   const folder = path.join(IMEI_FOLDER_BASE, imei);
-  // Double-check path safety
   if (!path.resolve(folder).startsWith(path.resolve(IMEI_FOLDER_BASE))) {
     throw new Error(`Invalid folder path for IMEI: ${imei}`);
   }
@@ -244,13 +243,17 @@ const tcpServer = net.createServer(socket => {
 
         const timestampIso = toMysqlDatetime(new Date(timestamp).toISOString());
 
-        const values = [
-          gps.latitude, gps.longitude, gps.speed || 0, gps.altitude, timestampIso,
-          gps.angle, gps.satellites, ioData.mouvement, ioData.gnss_statut, imei, ioData.ignition
-        ];
+        // Only save tracking data if ignition is on (1)
+        if (ioData.ignition === 1) {
+          const values = [
+            gps.latitude, gps.longitude, gps.speed || 0, gps.altitude, timestampIso,
+            gps.angle, gps.satellites, ioData.mouvement, ioData.gnss_statut, imei, ioData.ignition
+          ];
 
-        await insertTrackingData(values);
+          await insertTrackingData(values);
+        }
 
+        // Emit tracking data regardless of ignition status
         io.emit('tracking_data', {
           imei,
           latitude: gps.latitude,
@@ -296,7 +299,6 @@ const tcpServer = net.createServer(socket => {
             const filename = `trip_${dateName}_linestring.geojson`;
             const filepath = path.join(folder, filename);
 
-            // Final path validation
             if (!path.resolve(filepath).startsWith(path.resolve(folder))) {
               throw new Error(`Attempt to write outside IMEI folder: ${filepath}`);
             }
