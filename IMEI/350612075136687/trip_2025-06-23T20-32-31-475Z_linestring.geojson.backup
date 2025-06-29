@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3837666,
+          -3.3842633
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-10 10:28:29",
+        "speed": 4,
+        "angle": 23,
+        "satellites": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3837666,
+          -3.3842633
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-10 10:28:29",
+        "speed": 4,
+        "angle": 23,
+        "satellites": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.383765,
+          -3.3842983
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-10 10:28:28",
+        "speed": 4,
+        "angle": 6,
+        "satellites": 15
+      }
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3891916,
+          -3.3804883
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 16:37:04",
+        "speed": 7,
+        "angle": 247,
+        "satellites": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3891916,
+          -3.3804883
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 16:37:04",
+        "speed": 7,
+        "angle": 247,
+        "satellites": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.38922,
+          -3.3804716
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 16:37:02",
+        "speed": 6,
+        "angle": 244,
+        "satellites": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3892366,
+          -3.3804633
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 16:37:01",
+        "speed": 6,
+        "angle": 251,
+        "satellites": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3892533,
+          -3.3804583
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 16:37:00",
+        "speed": 6,
+        "angle": 249,
+        "satellites": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.38928,
+          -3.38044
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 16:36:58",
+        "speed": 6,
+        "angle": 251,
+        "satellites": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3892966,
+          -3.3804366
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 16:36:57",
+        "speed": 7,
+        "angle": 255,
+        "satellites": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3893116,
+          -3.3804333
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 16:36:56",
+        "speed": 6,
+        "angle": 264,
+        "satellites": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3893266,
+          -3.3804333
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 16:36:55",
+        "speed": 5,
+        "angle": 249,
+        "satellites": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3893833,
+          -3.380495
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 16:36:54",
+        "speed": 4,
+        "angle": 234,
+        "satellites": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3893883,
+          -3.38051
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 16:36:31",
+        "speed": 2,
+        "angle": 344,
+        "satellites": 14
+      }
+    }
+  ]
+}

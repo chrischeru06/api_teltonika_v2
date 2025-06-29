@@ -1,0 +1,2051 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.36993,
+          -3.3760366
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:18",
+        "speed": 5,
+        "angle": 99,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3700233,
+          -3.376065
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:19",
+        "speed": 6,
+        "angle": 100,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3700383,
+          -3.37606
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:20",
+        "speed": 8,
+        "angle": 105,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3700649,
+          -3.3760566
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:21",
+        "speed": 9,
+        "angle": 103,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3700916,
+          -3.3760566
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:22",
+        "speed": 10,
+        "angle": 100,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3701233,
+          -3.376055
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:23",
+        "speed": 10,
+        "angle": 104,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.370155,
+          -3.376055
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:24",
+        "speed": 10,
+        "angle": 99,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3701833,
+          -3.3760533
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:25",
+        "speed": 10,
+        "angle": 99,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.37021,
+          -3.3760533
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:26",
+        "speed": 10,
+        "angle": 102,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.37024,
+          -3.3760533
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:27",
+        "speed": 10,
+        "angle": 103,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 10
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3702699,
+          -3.3760566
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:28",
+        "speed": 11,
+        "angle": 104,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 11
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3702983,
+          -3.3760583
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:29",
+        "speed": 11,
+        "angle": 103,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3703283,
+          -3.3760633
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:30",
+        "speed": 11,
+        "angle": 104,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.37036,
+          -3.376065
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:31",
+        "speed": 12,
+        "angle": 105,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 14
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3703933,
+          -3.3760716
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:32",
+        "speed": 12,
+        "angle": 105,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.370425,
+          -3.3760783
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:33",
+        "speed": 12,
+        "angle": 104,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 16
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3704583,
+          -3.3760833
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:34",
+        "speed": 13,
+        "angle": 102,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 17
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3704916,
+          -3.3760849
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:35",
+        "speed": 13,
+        "angle": 103,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3705266,
+          -3.37609
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:36",
+        "speed": 14,
+        "angle": 103,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 19
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3705633,
+          -3.3760966
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:37",
+        "speed": 15,
+        "angle": 104,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 20
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3705983,
+          -3.376105
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:38",
+        "speed": 14,
+        "angle": 104,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 21
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3706316,
+          -3.37611
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:39",
+        "speed": 13,
+        "angle": 103,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 22
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3706666,
+          -3.3761166
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:40",
+        "speed": 13,
+        "angle": 103,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3706983,
+          -3.3761233
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:41",
+        "speed": 13,
+        "angle": 102,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 24
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.37073,
+          -3.3761283
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:42",
+        "speed": 12,
+        "angle": 102,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3707583,
+          -3.3761333
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:43",
+        "speed": 11,
+        "angle": 102,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 26
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3707833,
+          -3.3761383
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:44",
+        "speed": 9,
+        "angle": 102,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3708033,
+          -3.3761416
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:45",
+        "speed": 7,
+        "angle": 104,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 28
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3708183,
+          -3.3761466
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:46",
+        "speed": 5,
+        "angle": 103,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3708699,
+          -3.3761566
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:52",
+        "speed": 6,
+        "angle": 105,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 30
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.370885,
+          -3.3761599
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:53",
+        "speed": 6,
+        "angle": 104,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 31
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709,
+          -3.3761633
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:54",
+        "speed": 6,
+        "angle": 105,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 32
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709283,
+          -3.37617
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:56",
+        "speed": 6,
+        "angle": 105,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 33
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709449,
+          -3.3761749
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:57",
+        "speed": 6,
+        "angle": 107,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 34
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709566,
+          -3.3761783
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:17:58",
+        "speed": 4,
+        "angle": 107,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 35
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709966,
+          -3.3762199
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:08",
+        "speed": 7,
+        "angle": 173,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 36
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709966,
+          -3.37624
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:09",
+        "speed": 8,
+        "angle": 180,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 37
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.370995,
+          -3.3762616
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:10",
+        "speed": 9,
+        "angle": 181,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709933,
+          -3.376285
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:11",
+        "speed": 10,
+        "angle": 184,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 39
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.37099,
+          -3.3763133
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:12",
+        "speed": 12,
+        "angle": 190,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 40
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709833,
+          -3.3763466
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:13",
+        "speed": 14,
+        "angle": 189,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 41
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709766,
+          -3.3763816
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:14",
+        "speed": 15,
+        "angle": 191,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 42
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709683,
+          -3.3764183
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:15",
+        "speed": 14,
+        "angle": 192,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 43
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709633,
+          -3.3764533
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:16",
+        "speed": 13,
+        "angle": 193,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 44
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.370955,
+          -3.376485
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:17",
+        "speed": 12,
+        "angle": 192,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 45
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709483,
+          -3.3765183
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:18",
+        "speed": 14,
+        "angle": 190,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709433,
+          -3.376555
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:19",
+        "speed": 14,
+        "angle": 189,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 47
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709366,
+          -3.37659
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:20",
+        "speed": 13,
+        "angle": 192,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 48
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709283,
+          -3.3766233
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:21",
+        "speed": 12,
+        "angle": 195,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.37092,
+          -3.37665
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:22",
+        "speed": 10,
+        "angle": 195,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 50
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709183,
+          -3.3766716
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:23",
+        "speed": 6,
+        "angle": 191,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 51
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709133,
+          -3.376685
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:24",
+        "speed": 4,
+        "angle": 191,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 52
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709083,
+          -3.376705
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:26",
+        "speed": 5,
+        "angle": 191,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 53
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709083,
+          -3.3767183
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:27",
+        "speed": 6,
+        "angle": 182,
+        "satellites": 14,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.370915,
+          -3.3767333
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:28",
+        "speed": 6,
+        "angle": 164,
+        "satellites": 13,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.370925,
+          -3.3767466
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:29",
+        "speed": 8,
+        "angle": 146,
+        "satellites": 14,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 56
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709416,
+          -3.3767599
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:30",
+        "speed": 10,
+        "angle": 127,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 57
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3709716,
+          -3.3767733
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:31",
+        "speed": 14,
+        "angle": 111,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 58
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.371015,
+          -3.3767899
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:32",
+        "speed": 18,
+        "angle": 111,
+        "satellites": 14,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 59
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3710666,
+          -3.3768083
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:33",
+        "speed": 22,
+        "angle": 106,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 60
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3711316,
+          -3.3768266
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:34",
+        "speed": 26,
+        "angle": 106,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 61
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3712,
+          -3.376845
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:35",
+        "speed": 28,
+        "angle": 105,
+        "satellites": 14,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 62
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3712716,
+          -3.3768649
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:36",
+        "speed": 30,
+        "angle": 106,
+        "satellites": 14,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3713483,
+          -3.37689
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:37",
+        "speed": 33,
+        "angle": 105,
+        "satellites": 14,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 64
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3714333,
+          -3.3769133
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:38",
+        "speed": 35,
+        "angle": 105,
+        "satellites": 14,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 65
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3715183,
+          -3.3769383
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:39",
+        "speed": 36,
+        "angle": 104,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 66
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3716066,
+          -3.3769616
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:40",
+        "speed": 36,
+        "angle": 103,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 67
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3716966,
+          -3.3769866
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:41",
+        "speed": 38,
+        "angle": 103,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 68
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3717933,
+          -3.3770133
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:42",
+        "speed": 39,
+        "angle": 102,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 69
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.37189,
+          -3.377035
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:43",
+        "speed": 39,
+        "angle": 103,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 70
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3719783,
+          -3.3770633
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:44",
+        "speed": 38,
+        "angle": 103,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 71
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3720733,
+          -3.3770866
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:45",
+        "speed": 37,
+        "angle": 104,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 72
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3721616,
+          -3.3771033
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:46",
+        "speed": 35,
+        "angle": 103,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 73
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.37224,
+          -3.3771283
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:47",
+        "speed": 32,
+        "angle": 103,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 74
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.372315,
+          -3.37715
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:48",
+        "speed": 27,
+        "angle": 104,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 75
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3723733,
+          -3.3771633
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:49",
+        "speed": 23,
+        "angle": 104,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3724249,
+          -3.3771783
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:50",
+        "speed": 21,
+        "angle": 108,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 77
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.37247,
+          -3.3771916
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:51",
+        "speed": 18,
+        "angle": 116,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 78
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.372505,
+          -3.377215
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:52",
+        "speed": 17,
+        "angle": 133,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3725233,
+          -3.3772516
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:53",
+        "speed": 17,
+        "angle": 156,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 80
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3725316,
+          -3.377295
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:54",
+        "speed": 19,
+        "angle": 169,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 81
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.372535,
+          -3.377345
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:55",
+        "speed": 20,
+        "angle": 173,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3725333,
+          -3.3773983
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:56",
+        "speed": 21,
+        "angle": 177,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 83
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.37253,
+          -3.377455
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:57",
+        "speed": 24,
+        "angle": 179,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3725266,
+          -3.3775166
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:58",
+        "speed": 24,
+        "angle": 181,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 85
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3725233,
+          -3.3775816
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:18:59",
+        "speed": 26,
+        "angle": 182,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 86
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3725216,
+          -3.3776516
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:19:00",
+        "speed": 28,
+        "angle": 179,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3725216,
+          -3.3776516
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-20 11:19:00",
+        "speed": 28,
+        "angle": 179,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 88
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.36993,
+            -3.3760366
+          ],
+          [
+            29.3700233,
+            -3.376065
+          ],
+          [
+            29.3700383,
+            -3.37606
+          ],
+          [
+            29.3700649,
+            -3.3760566
+          ],
+          [
+            29.3700916,
+            -3.3760566
+          ],
+          [
+            29.3701233,
+            -3.376055
+          ],
+          [
+            29.370155,
+            -3.376055
+          ],
+          [
+            29.3701833,
+            -3.3760533
+          ],
+          [
+            29.37021,
+            -3.3760533
+          ],
+          [
+            29.37024,
+            -3.3760533
+          ],
+          [
+            29.3702699,
+            -3.3760566
+          ],
+          [
+            29.3702983,
+            -3.3760583
+          ],
+          [
+            29.3703283,
+            -3.3760633
+          ],
+          [
+            29.37036,
+            -3.376065
+          ],
+          [
+            29.3703933,
+            -3.3760716
+          ],
+          [
+            29.370425,
+            -3.3760783
+          ],
+          [
+            29.3704583,
+            -3.3760833
+          ],
+          [
+            29.3704916,
+            -3.3760849
+          ],
+          [
+            29.3705266,
+            -3.37609
+          ],
+          [
+            29.3705633,
+            -3.3760966
+          ],
+          [
+            29.3705983,
+            -3.376105
+          ],
+          [
+            29.3706316,
+            -3.37611
+          ],
+          [
+            29.3706666,
+            -3.3761166
+          ],
+          [
+            29.3706983,
+            -3.3761233
+          ],
+          [
+            29.37073,
+            -3.3761283
+          ],
+          [
+            29.3707583,
+            -3.3761333
+          ],
+          [
+            29.3707833,
+            -3.3761383
+          ],
+          [
+            29.3708033,
+            -3.3761416
+          ],
+          [
+            29.3708183,
+            -3.3761466
+          ],
+          [
+            29.3708699,
+            -3.3761566
+          ],
+          [
+            29.370885,
+            -3.3761599
+          ],
+          [
+            29.3709,
+            -3.3761633
+          ],
+          [
+            29.3709283,
+            -3.37617
+          ],
+          [
+            29.3709449,
+            -3.3761749
+          ],
+          [
+            29.3709566,
+            -3.3761783
+          ],
+          [
+            29.3709966,
+            -3.3762199
+          ],
+          [
+            29.3709966,
+            -3.37624
+          ],
+          [
+            29.370995,
+            -3.3762616
+          ],
+          [
+            29.3709933,
+            -3.376285
+          ],
+          [
+            29.37099,
+            -3.3763133
+          ],
+          [
+            29.3709833,
+            -3.3763466
+          ],
+          [
+            29.3709766,
+            -3.3763816
+          ],
+          [
+            29.3709683,
+            -3.3764183
+          ],
+          [
+            29.3709633,
+            -3.3764533
+          ],
+          [
+            29.370955,
+            -3.376485
+          ],
+          [
+            29.3709483,
+            -3.3765183
+          ],
+          [
+            29.3709433,
+            -3.376555
+          ],
+          [
+            29.3709366,
+            -3.37659
+          ],
+          [
+            29.3709283,
+            -3.3766233
+          ],
+          [
+            29.37092,
+            -3.37665
+          ],
+          [
+            29.3709183,
+            -3.3766716
+          ],
+          [
+            29.3709133,
+            -3.376685
+          ],
+          [
+            29.3709083,
+            -3.376705
+          ],
+          [
+            29.3709083,
+            -3.3767183
+          ],
+          [
+            29.370915,
+            -3.3767333
+          ],
+          [
+            29.370925,
+            -3.3767466
+          ],
+          [
+            29.3709416,
+            -3.3767599
+          ],
+          [
+            29.3709716,
+            -3.3767733
+          ],
+          [
+            29.371015,
+            -3.3767899
+          ],
+          [
+            29.3710666,
+            -3.3768083
+          ],
+          [
+            29.3711316,
+            -3.3768266
+          ],
+          [
+            29.3712,
+            -3.376845
+          ],
+          [
+            29.3712716,
+            -3.3768649
+          ],
+          [
+            29.3713483,
+            -3.37689
+          ],
+          [
+            29.3714333,
+            -3.3769133
+          ],
+          [
+            29.3715183,
+            -3.3769383
+          ],
+          [
+            29.3716066,
+            -3.3769616
+          ],
+          [
+            29.3716966,
+            -3.3769866
+          ],
+          [
+            29.3717933,
+            -3.3770133
+          ],
+          [
+            29.37189,
+            -3.377035
+          ],
+          [
+            29.3719783,
+            -3.3770633
+          ],
+          [
+            29.3720733,
+            -3.3770866
+          ],
+          [
+            29.3721616,
+            -3.3771033
+          ],
+          [
+            29.37224,
+            -3.3771283
+          ],
+          [
+            29.372315,
+            -3.37715
+          ],
+          [
+            29.3723733,
+            -3.3771633
+          ],
+          [
+            29.3724249,
+            -3.3771783
+          ],
+          [
+            29.37247,
+            -3.3771916
+          ],
+          [
+            29.372505,
+            -3.377215
+          ],
+          [
+            29.3725233,
+            -3.3772516
+          ],
+          [
+            29.3725316,
+            -3.377295
+          ],
+          [
+            29.372535,
+            -3.377345
+          ],
+          [
+            29.3725333,
+            -3.3773983
+          ],
+          [
+            29.37253,
+            -3.377455
+          ],
+          [
+            29.3725266,
+            -3.3775166
+          ],
+          [
+            29.3725233,
+            -3.3775816
+          ],
+          [
+            29.3725216,
+            -3.3776516
+          ],
+          [
+            29.3725216,
+            -3.3776516
+          ]
+        ]
+      },
+      "properties": {
+        "layer": "path",
+        "trip_start": "2025-06-20T11:19:00.000Z",
+        "trip_end": "2025-06-23T18:08:32.000Z",
+        "total_points": 88,
+        "device_uid": "350612075136687",
+        "migrated_at": "2025-06-29T08:33:21.145Z"
+      }
+    }
+  ],
+  "migration_info": {
+    "original_format": "FeatureCollection",
+    "migrated_at": "2025-06-29T08:33:21.145Z",
+    "original_features_count": 88,
+    "new_features_count": 89
+  }
+}

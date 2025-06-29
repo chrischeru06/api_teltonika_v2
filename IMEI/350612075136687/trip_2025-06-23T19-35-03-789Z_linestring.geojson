@@ -1,0 +1,96 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3877083,
+          -3.37621
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-15 07:09:14",
+        "speed": 3,
+        "angle": 309,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3876599,
+          -3.3761666
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-15 07:09:15",
+        "speed": 3,
+        "angle": 308,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.38765,
+          -3.3761566
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-15 07:09:31",
+        "speed": 0,
+        "angle": 309,
+        "satellites": 16,
+        "layer": "point",
+        "device_uid": "350612075136687",
+        "point_sequence": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.3877083,
+            -3.37621
+          ],
+          [
+            29.3876599,
+            -3.3761666
+          ],
+          [
+            29.38765,
+            -3.3761566
+          ]
+        ]
+      },
+      "properties": {
+        "layer": "path",
+        "trip_start": "2025-06-15T07:09:31.000Z",
+        "trip_end": "2025-06-23T19:35:02.000Z",
+        "total_points": 3,
+        "device_uid": "350612075136687",
+        "migrated_at": "2025-06-29T08:33:21.508Z"
+      }
+    }
+  ],
+  "migration_info": {
+    "original_format": "FeatureCollection",
+    "migrated_at": "2025-06-29T08:33:21.508Z",
+    "original_features_count": 3,
+    "new_features_count": 4
+  }
+}

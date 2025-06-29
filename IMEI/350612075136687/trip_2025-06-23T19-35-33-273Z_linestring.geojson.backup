@@ -1,0 +1,37 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.388075,
+          -3.3763566
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-15 06:47:14",
+        "speed": 0,
+        "angle": 304,
+        "satellites": 15
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.388075,
+          -3.3763566
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-15 06:46:58",
+        "speed": 3,
+        "angle": 311,
+        "satellites": 16
+      }
+    }
+  ]
+}

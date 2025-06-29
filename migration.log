@@ -1,0 +1,450 @@
+2025-06-29T08:33:20.455Z [INFO]: ✅ Connexion à la base de données établie
+2025-06-29T08:33:20.465Z [INFO]: 🚀 Début de la migration des trajets...
+2025-06-29T08:33:20.559Z [INFO]: 📊 110 trajets trouvés dans la base de données
+2025-06-29T08:33:20.559Z [INFO]: [1/110] Traitement du trajet 352016700394133 - Sat Jun 28 2025 17:12:39 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.575Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T18-26-17-091Z_linestring.geojson.backup
+2025-06-29T08:33:20.586Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T18-26-17-091Z_linestring.geojson
+2025-06-29T08:33:20.586Z [INFO]: [1/110] ✅ Migration réussie
+2025-06-29T08:33:20.586Z [INFO]: [2/110] Traitement du trajet 350612075136687 - Sat Jun 28 2025 14:13:23 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.588Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-28T14-18-55-871Z_linestring.geojson.backup
+2025-06-29T08:33:20.589Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-28T14-18-55-871Z_linestring.geojson
+2025-06-29T08:33:20.590Z [INFO]: [2/110] ✅ Migration réussie
+2025-06-29T08:33:20.590Z [INFO]: [3/110] Traitement du trajet 352016700394133 - Sat Jun 28 2025 13:09:57 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.600Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T14-10-05-951Z_linestring.geojson.backup
+2025-06-29T08:33:20.608Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T14-10-05-951Z_linestring.geojson
+2025-06-29T08:33:20.608Z [INFO]: [3/110] ✅ Migration réussie
+2025-06-29T08:33:20.608Z [INFO]: [4/110] Traitement du trajet 352016700394133 - Sat Jun 28 2025 12:50:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.612Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T13-06-15-573Z_linestring.geojson.backup
+2025-06-29T08:33:20.614Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T13-06-15-573Z_linestring.geojson
+2025-06-29T08:33:20.614Z [INFO]: [4/110] ✅ Migration réussie
+2025-06-29T08:33:20.614Z [INFO]: [5/110] Traitement du trajet 350612075136687 - Sat Jun 28 2025 09:49:07 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.616Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-28T09-55-31-474Z_linestring.geojson.backup
+2025-06-29T08:33:20.617Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-28T09-55-31-474Z_linestring.geojson
+2025-06-29T08:33:20.618Z [INFO]: [5/110] ✅ Migration réussie
+2025-06-29T08:33:20.618Z [INFO]: [6/110] Traitement du trajet 350612075136687 - Fri Jun 27 2025 16:09:58 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.620Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T16-20-28-553Z_linestring.geojson.backup
+2025-06-29T08:33:20.623Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T16-20-28-553Z_linestring.geojson
+2025-06-29T08:33:20.623Z [INFO]: [6/110] ✅ Migration réussie
+2025-06-29T08:33:20.623Z [INFO]: [7/110] Traitement du trajet 350612075136687 - Fri Jun 27 2025 16:02:33 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.624Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T16-09-29-075Z_linestring.geojson.backup
+2025-06-29T08:33:20.625Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T16-09-29-075Z_linestring.geojson
+2025-06-29T08:33:20.626Z [INFO]: [7/110] ✅ Migration réussie
+2025-06-29T08:33:20.626Z [INFO]: [8/110] Traitement du trajet 350612075136687 - Fri Jun 27 2025 13:06:16 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.630Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T13-19-15-034Z_linestring.geojson.backup
+2025-06-29T08:33:20.632Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T13-19-15-034Z_linestring.geojson
+2025-06-29T08:33:20.632Z [INFO]: [8/110] ✅ Migration réussie
+2025-06-29T08:33:20.633Z [INFO]: [9/110] Traitement du trajet 350612075136687 - Fri Jun 27 2025 11:56:28 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.634Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T12-02-12-063Z_linestring.geojson.backup
+2025-06-29T08:33:20.635Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T12-02-12-063Z_linestring.geojson
+2025-06-29T08:33:20.635Z [INFO]: [9/110] ✅ Migration réussie
+2025-06-29T08:33:20.636Z [INFO]: [10/110] Traitement du trajet 350612075136687 - Fri Jun 27 2025 11:45:23 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.636Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T11-48-59-941Z_linestring.geojson.backup
+2025-06-29T08:33:20.637Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T11-48-59-941Z_linestring.geojson
+2025-06-29T08:33:20.637Z [INFO]: [10/110] ✅ Migration réussie
+2025-06-29T08:33:20.637Z [INFO]: [11/110] Traitement du trajet 350612075136687 - Fri Jun 27 2025 11:17:35 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.639Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T11-25-13-020Z_linestring.geojson.backup
+2025-06-29T08:33:20.641Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T11-25-13-020Z_linestring.geojson
+2025-06-29T08:33:20.641Z [INFO]: [11/110] ✅ Migration réussie
+2025-06-29T08:33:20.741Z [INFO]: [12/110] Traitement du trajet 350612075136687 - Fri Jun 27 2025 10:37:22 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.744Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T10-46-35-799Z_linestring.geojson.backup
+2025-06-29T08:33:20.747Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T10-46-35-799Z_linestring.geojson
+2025-06-29T08:33:20.747Z [INFO]: [12/110] ✅ Migration réussie
+2025-06-29T08:33:20.747Z [INFO]: [13/110] Traitement du trajet 350612075136687 - Fri Jun 27 2025 09:07:10 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.749Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T09-17-07-613Z_linestring.geojson.backup
+2025-06-29T08:33:20.751Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T09-17-07-613Z_linestring.geojson
+2025-06-29T08:33:20.752Z [INFO]: [13/110] ✅ Migration réussie
+2025-06-29T08:33:20.752Z [INFO]: [14/110] Traitement du trajet 350612075136687 - Thu Jun 26 2025 15:32:31 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.754Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T15-40-49-819Z_linestring.geojson.backup
+2025-06-29T08:33:20.756Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T15-40-49-819Z_linestring.geojson
+2025-06-29T08:33:20.756Z [INFO]: [14/110] ✅ Migration réussie
+2025-06-29T08:33:20.756Z [INFO]: [15/110] Traitement du trajet 350612075136687 - Thu Jun 26 2025 15:19:52 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.757Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T15-24-21-816Z_linestring.geojson.backup
+2025-06-29T08:33:20.759Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T15-24-21-816Z_linestring.geojson
+2025-06-29T08:33:20.759Z [INFO]: [15/110] ✅ Migration réussie
+2025-06-29T08:33:20.759Z [INFO]: [16/110] Traitement du trajet 350612075136687 - Thu Jun 26 2025 15:08:27 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.760Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T15-13-56-817Z_linestring.geojson.backup
+2025-06-29T08:33:20.761Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T15-13-56-817Z_linestring.geojson
+2025-06-29T08:33:20.761Z [INFO]: [16/110] ✅ Migration réussie
+2025-06-29T08:33:20.761Z [INFO]: [17/110] Traitement du trajet 350612075136687 - Thu Jun 26 2025 09:05:42 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.765Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T09-17-33-254Z_linestring.geojson.backup
+2025-06-29T08:33:20.769Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T09-17-33-254Z_linestring.geojson
+2025-06-29T08:33:20.769Z [INFO]: [17/110] ✅ Migration réussie
+2025-06-29T08:33:20.769Z [INFO]: [18/110] Traitement du trajet 350612075136687 - Thu Jun 26 2025 07:20:35 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.770Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T07-27-27-072Z_linestring.geojson.backup
+2025-06-29T08:33:20.772Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T07-27-27-072Z_linestring.geojson
+2025-06-29T08:33:20.772Z [INFO]: [18/110] ✅ Migration réussie
+2025-06-29T08:33:20.772Z [INFO]: [19/110] Traitement du trajet 350612075136687 - Thu Jun 26 2025 06:38:58 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.774Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T06-44-37-234Z_linestring.geojson.backup
+2025-06-29T08:33:20.776Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T06-44-37-234Z_linestring.geojson
+2025-06-29T08:33:20.776Z [INFO]: [19/110] ✅ Migration réussie
+2025-06-29T08:33:20.776Z [INFO]: [20/110] Traitement du trajet 350612075136687 - Tue Jun 24 2025 15:49:53 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.778Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T15-55-39-832Z_linestring.geojson.backup
+2025-06-29T08:33:20.779Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T15-55-39-832Z_linestring.geojson
+2025-06-29T08:33:20.779Z [INFO]: [20/110] ✅ Migration réussie
+2025-06-29T08:33:20.779Z [INFO]: [21/110] Traitement du trajet 350612075136687 - Tue Jun 24 2025 15:39:08 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.781Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T15-44-55-953Z_linestring.geojson.backup
+2025-06-29T08:33:20.782Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T15-44-55-953Z_linestring.geojson
+2025-06-29T08:33:20.782Z [INFO]: [21/110] ✅ Migration réussie
+2025-06-29T08:33:20.882Z [INFO]: [22/110] Traitement du trajet 350612075136687 - Tue Jun 24 2025 15:34:38 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.885Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T15-39-06-190Z_linestring.geojson.backup
+2025-06-29T08:33:20.885Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T15-39-06-190Z_linestring.geojson
+2025-06-29T08:33:20.885Z [INFO]: [22/110] ✅ Migration réussie
+2025-06-29T08:33:20.886Z [INFO]: [23/110] Traitement du trajet 350612075136687 - Tue Jun 24 2025 15:23:19 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.887Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T15-28-41-031Z_linestring.geojson.backup
+2025-06-29T08:33:20.889Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T15-28-41-031Z_linestring.geojson
+2025-06-29T08:33:20.889Z [INFO]: [23/110] ✅ Migration réussie
+2025-06-29T08:33:20.889Z [INFO]: [24/110] Traitement du trajet 350612075136687 - Tue Jun 24 2025 10:17:03 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.894Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T10-41-45-948Z_linestring.geojson.backup
+2025-06-29T08:33:20.897Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T10-41-45-948Z_linestring.geojson
+2025-06-29T08:33:20.897Z [INFO]: [24/110] ✅ Migration réussie
+2025-06-29T08:33:20.897Z [INFO]: [25/110] Traitement du trajet 350612075136687 - Tue Jun 24 2025 07:56:57 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.897Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T07-58-32-211Z_linestring.geojson.backup
+2025-06-29T08:33:20.898Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T07-58-32-211Z_linestring.geojson
+2025-06-29T08:33:20.898Z [INFO]: [25/110] ✅ Migration réussie
+2025-06-29T08:33:20.898Z [INFO]: [26/110] Traitement du trajet 350612075136687 - Mon Jun 23 2025 15:27:18 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.898Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T15-54-04-509Z_linestring.geojson.backup
+2025-06-29T08:33:20.899Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T15-54-04-509Z_linestring.geojson
+2025-06-29T08:33:20.899Z [INFO]: [26/110] ✅ Migration réussie
+2025-06-29T08:33:20.899Z [INFO]: [27/110] Traitement du trajet 350612075136687 - Mon Jun 23 2025 11:40:07 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.901Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T15-56-31-269Z_linestring.geojson.backup
+2025-06-29T08:33:20.903Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T15-56-31-269Z_linestring.geojson
+2025-06-29T08:33:20.903Z [INFO]: [27/110] ✅ Migration réussie
+2025-06-29T08:33:20.903Z [INFO]: [28/110] Traitement du trajet 350612075136687 - Mon Jun 23 2025 10:31:20 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.904Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-00-05-530Z_linestring.geojson.backup
+2025-06-29T08:33:20.904Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-00-05-530Z_linestring.geojson
+2025-06-29T08:33:20.904Z [INFO]: [28/110] ✅ Migration réussie
+2025-06-29T08:33:20.904Z [INFO]: [29/110] Traitement du trajet 350612075136687 - Mon Jun 23 2025 06:40:46 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.905Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-01-32-372Z_linestring.geojson.backup
+2025-06-29T08:33:20.906Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-01-32-372Z_linestring.geojson
+2025-06-29T08:33:20.906Z [INFO]: [29/110] ✅ Migration réussie
+2025-06-29T08:33:20.906Z [INFO]: [30/110] Traitement du trajet 350612075136687 - Sun Jun 22 2025 20:07:37 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.907Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-06-32-750Z_linestring.geojson.backup
+2025-06-29T08:33:20.908Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-06-32-750Z_linestring.geojson
+2025-06-29T08:33:20.908Z [INFO]: [30/110] ✅ Migration réussie
+2025-06-29T08:33:20.908Z [INFO]: [31/110] Traitement du trajet 350612075136687 - Sun Jun 22 2025 14:05:03 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:20.909Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-08-33-513Z_linestring.geojson.backup
+2025-06-29T08:33:20.910Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-08-33-513Z_linestring.geojson
+2025-06-29T08:33:20.911Z [INFO]: [31/110] ✅ Migration réussie
+2025-06-29T08:33:21.011Z [INFO]: [32/110] Traitement du trajet 350612075136687 - Sun Jun 22 2025 13:39:13 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.014Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-09-31-509Z_linestring.geojson.backup
+2025-06-29T08:33:21.015Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-09-31-509Z_linestring.geojson
+2025-06-29T08:33:21.015Z [INFO]: [32/110] ✅ Migration réussie
+2025-06-29T08:33:21.015Z [INFO]: [33/110] Traitement du trajet 350612075136687 - Sun Jun 22 2025 09:48:38 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.016Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-25-02-253Z_linestring.geojson.backup
+2025-06-29T08:33:21.017Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-25-02-253Z_linestring.geojson
+2025-06-29T08:33:21.017Z [INFO]: [33/110] ✅ Migration réussie
+2025-06-29T08:33:21.017Z [INFO]: [34/110] Traitement du trajet 352016700394133 - Sat Jun 21 2025 17:30:44 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.018Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-23T13-34-59-233Z_linestring.geojson.backup
+2025-06-29T08:33:21.018Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-23T13-34-59-233Z_linestring.geojson
+2025-06-29T08:33:21.018Z [INFO]: [34/110] ✅ Migration réussie
+2025-06-29T08:33:21.018Z [INFO]: [35/110] Traitement du trajet 350612075136687 - Sat Jun 21 2025 16:36:12 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.020Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-35-02-411Z_linestring.geojson.backup
+2025-06-29T08:33:21.021Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-35-02-411Z_linestring.geojson
+2025-06-29T08:33:21.021Z [INFO]: [35/110] ✅ Migration réussie
+2025-06-29T08:33:21.021Z [INFO]: [36/110] Traitement du trajet 350612075136687 - Sat Jun 21 2025 11:27:55 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.023Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T17-51-32-431Z_linestring.geojson.backup
+2025-06-29T08:33:21.024Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T17-51-32-431Z_linestring.geojson
+2025-06-29T08:33:21.024Z [INFO]: [36/110] ✅ Migration réussie
+2025-06-29T08:33:21.024Z [INFO]: [37/110] Traitement du trajet 352016700394133 - Fri Jun 20 2025 19:06:35 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.028Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-23T13-43-58-417Z_linestring.geojson.backup
+2025-06-29T08:33:21.032Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-23T13-43-58-417Z_linestring.geojson
+2025-06-29T08:33:21.032Z [INFO]: [37/110] ✅ Migration réussie
+2025-06-29T08:33:21.032Z [INFO]: [38/110] Traitement du trajet 350612075136687 - Fri Jun 20 2025 16:37:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.033Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-03-31-131Z_linestring.geojson.backup
+2025-06-29T08:33:21.033Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-03-31-131Z_linestring.geojson
+2025-06-29T08:33:21.034Z [INFO]: [38/110] ✅ Migration réussie
+2025-06-29T08:33:21.034Z [INFO]: [39/110] Traitement du trajet 352016700394133 - Fri Jun 20 2025 16:04:48 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.037Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-23T13-46-00-356Z_linestring.geojson.backup
+2025-06-29T08:33:21.039Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-23T13-46-00-356Z_linestring.geojson
+2025-06-29T08:33:21.039Z [INFO]: [39/110] ✅ Migration réussie
+2025-06-29T08:33:21.040Z [INFO]: [40/110] Traitement du trajet 350612075136687 - Fri Jun 20 2025 15:10:15 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.040Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-04-33-231Z_linestring.geojson.backup
+2025-06-29T08:33:21.041Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-04-33-231Z_linestring.geojson
+2025-06-29T08:33:21.041Z [INFO]: [40/110] ✅ Migration réussie
+2025-06-29T08:33:21.041Z [INFO]: [41/110] Traitement du trajet 350612075136687 - Fri Jun 20 2025 11:51:13 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.042Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-07-01-713Z_linestring.geojson.backup
+2025-06-29T08:33:21.043Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-07-01-713Z_linestring.geojson
+2025-06-29T08:33:21.043Z [INFO]: [41/110] ✅ Migration réussie
+2025-06-29T08:33:21.143Z [INFO]: [42/110] Traitement du trajet 350612075136687 - Fri Jun 20 2025 11:19:00 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.145Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-08-33-112Z_linestring.geojson.backup
+2025-06-29T08:33:21.146Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-08-33-112Z_linestring.geojson
+2025-06-29T08:33:21.146Z [INFO]: [42/110] ✅ Migration réussie
+2025-06-29T08:33:21.146Z [INFO]: [43/110] Traitement du trajet 350612075136687 - Fri Jun 20 2025 10:10:15 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.147Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-12-05-752Z_linestring.geojson.backup
+2025-06-29T08:33:21.149Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-12-05-752Z_linestring.geojson
+2025-06-29T08:33:21.149Z [INFO]: [43/110] ✅ Migration réussie
+2025-06-29T08:33:21.149Z [INFO]: [44/110] Traitement du trajet 350612075136687 - Fri Jun 20 2025 06:30:33 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.150Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-14-01-473Z_linestring.geojson.backup
+2025-06-29T08:33:21.151Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-14-01-473Z_linestring.geojson
+2025-06-29T08:33:21.151Z [INFO]: [44/110] ✅ Migration réussie
+2025-06-29T08:33:21.151Z [INFO]: [45/110] Traitement du trajet 350612075136687 - Thu Jun 19 2025 15:42:12 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.152Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-20-05-290Z_linestring.geojson.backup
+2025-06-29T08:33:21.153Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-20-05-290Z_linestring.geojson
+2025-06-29T08:33:21.153Z [INFO]: [45/110] ✅ Migration réussie
+2025-06-29T08:33:21.153Z [INFO]: [46/110] Traitement du trajet 350612075136687 - Thu Jun 19 2025 11:03:18 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.154Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-28-03-010Z_linestring.geojson.backup
+2025-06-29T08:33:21.155Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-28-03-010Z_linestring.geojson
+2025-06-29T08:33:21.155Z [INFO]: [46/110] ✅ Migration réussie
+2025-06-29T08:33:21.155Z [INFO]: [47/110] Traitement du trajet 350612075136687 - Thu Jun 19 2025 10:48:22 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.156Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-29-32-111Z_linestring.geojson.backup
+2025-06-29T08:33:21.157Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-29-32-111Z_linestring.geojson
+2025-06-29T08:33:21.157Z [INFO]: [47/110] ✅ Migration réussie
+2025-06-29T08:33:21.158Z [INFO]: [48/110] Traitement du trajet 350612075136687 - Thu Jun 19 2025 10:00:56 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.159Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-30-33-152Z_linestring.geojson.backup
+2025-06-29T08:33:21.160Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-30-33-152Z_linestring.geojson
+2025-06-29T08:33:21.160Z [INFO]: [48/110] ✅ Migration réussie
+2025-06-29T08:33:21.160Z [INFO]: [49/110] Traitement du trajet 350612075136687 - Thu Jun 19 2025 06:16:56 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.160Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-33-02-391Z_linestring.geojson.backup
+2025-06-29T08:33:21.161Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-33-02-391Z_linestring.geojson
+2025-06-29T08:33:21.161Z [INFO]: [49/110] ✅ Migration réussie
+2025-06-29T08:33:21.161Z [INFO]: [50/110] Traitement du trajet 350612075136687 - Wed Jun 18 2025 15:44:38 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.162Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-40-32-570Z_linestring.geojson.backup
+2025-06-29T08:33:21.164Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-40-32-570Z_linestring.geojson
+2025-06-29T08:33:21.164Z [INFO]: [50/110] ✅ Migration réussie
+2025-06-29T08:33:21.164Z [INFO]: [51/110] Traitement du trajet 352016700394133 - Wed Jun 18 2025 14:30:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.164Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-27T12-52-08-215Z_linestring.geojson.backup
+2025-06-29T08:33:21.165Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-27T12-52-08-215Z_linestring.geojson
+2025-06-29T08:33:21.165Z [INFO]: [51/110] ✅ Migration réussie
+2025-06-29T08:33:21.265Z [INFO]: [52/110] Traitement du trajet 350612075136687 - Wed Jun 18 2025 11:11:05 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.267Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-47-02-855Z_linestring.geojson.backup
+2025-06-29T08:33:21.268Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-47-02-855Z_linestring.geojson
+2025-06-29T08:33:21.269Z [INFO]: [52/110] ✅ Migration réussie
+2025-06-29T08:33:21.269Z [INFO]: [53/110] Traitement du trajet 350612075136687 - Wed Jun 18 2025 10:15:20 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.270Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-49-34-031Z_linestring.geojson.backup
+2025-06-29T08:33:21.271Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-49-34-031Z_linestring.geojson
+2025-06-29T08:33:21.271Z [INFO]: [53/110] ✅ Migration réussie
+2025-06-29T08:33:21.271Z [INFO]: [54/110] Traitement du trajet 352016700394133 - Wed Jun 18 2025 07:35:12 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.273Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-27T15-36-16-871Z_linestring.geojson.backup
+2025-06-29T08:33:21.275Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-27T15-36-16-871Z_linestring.geojson
+2025-06-29T08:33:21.275Z [INFO]: [54/110] ✅ Migration réussie
+2025-06-29T08:33:21.275Z [INFO]: [55/110] Traitement du trajet 350612075136687 - Wed Jun 18 2025 06:19:16 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.276Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-52-02-770Z_linestring.geojson.backup
+2025-06-29T08:33:21.277Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-52-02-770Z_linestring.geojson
+2025-06-29T08:33:21.277Z [INFO]: [55/110] ✅ Migration réussie
+2025-06-29T08:33:21.277Z [INFO]: [56/110] Traitement du trajet 352016700394133 - Wed Jun 18 2025 06:07:42 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.278Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-27T15-37-47-093Z_linestring.geojson.backup
+2025-06-29T08:33:21.279Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-27T15-37-47-093Z_linestring.geojson
+2025-06-29T08:33:21.279Z [INFO]: [56/110] ✅ Migration réussie
+2025-06-29T08:33:21.279Z [INFO]: [57/110] Traitement du trajet 352016700394133 - Wed Jun 18 2025 05:05:21 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.281Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-03-33-514Z_linestring.geojson.backup
+2025-06-29T08:33:21.281Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-03-33-514Z_linestring.geojson
+2025-06-29T08:33:21.281Z [INFO]: [57/110] ✅ Migration réussie
+2025-06-29T08:33:21.281Z [INFO]: [58/110] Traitement du trajet 352016700394133 - Tue Jun 17 2025 22:29:00 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.282Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-08-04-673Z_linestring.geojson.backup
+2025-06-29T08:33:21.283Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-08-04-673Z_linestring.geojson
+2025-06-29T08:33:21.283Z [INFO]: [58/110] ✅ Migration réussie
+2025-06-29T08:33:21.283Z [INFO]: [59/110] Traitement du trajet 352016700394133 - Tue Jun 17 2025 18:51:15 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.283Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-09-04-370Z_linestring.geojson.backup
+2025-06-29T08:33:21.283Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-09-04-370Z_linestring.geojson
+2025-06-29T08:33:21.283Z [INFO]: [59/110] ✅ Migration réussie
+2025-06-29T08:33:21.284Z [INFO]: [60/110] Traitement du trajet 350612075136687 - Tue Jun 17 2025 15:27:21 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.285Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-01-00-992Z_linestring.geojson.backup
+2025-06-29T08:33:21.285Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-01-00-992Z_linestring.geojson
+2025-06-29T08:33:21.286Z [INFO]: [60/110] ✅ Migration réussie
+2025-06-29T08:33:21.286Z [INFO]: [61/110] Traitement du trajet 350612075136687 - Tue Jun 17 2025 14:01:27 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.286Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-02-05-709Z_linestring.geojson.backup
+2025-06-29T08:33:21.287Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-02-05-709Z_linestring.geojson
+2025-06-29T08:33:21.287Z [INFO]: [61/110] ✅ Migration réussie
+2025-06-29T08:33:21.388Z [INFO]: [62/110] Traitement du trajet 352016700394133 - Tue Jun 17 2025 06:42:47 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.389Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-15-07-012Z_linestring.geojson.backup
+2025-06-29T08:33:21.389Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-15-07-012Z_linestring.geojson
+2025-06-29T08:33:21.389Z [INFO]: [62/110] ✅ Migration réussie
+2025-06-29T08:33:21.389Z [INFO]: [63/110] Traitement du trajet 350612075136687 - Tue Jun 17 2025 06:28:10 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.390Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-10-35-812Z_linestring.geojson.backup
+2025-06-29T08:33:21.391Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-10-35-812Z_linestring.geojson
+2025-06-29T08:33:21.391Z [INFO]: [63/110] ✅ Migration réussie
+2025-06-29T08:33:21.391Z [INFO]: [64/110] Traitement du trajet 352016700394133 - Mon Jun 16 2025 22:41:18 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.393Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-19-33-893Z_linestring.geojson.backup
+2025-06-29T08:33:21.393Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-19-33-893Z_linestring.geojson
+2025-06-29T08:33:21.393Z [INFO]: [64/110] ✅ Migration réussie
+2025-06-29T08:33:21.393Z [INFO]: [65/110] Traitement du trajet 352016700394133 - Mon Jun 16 2025 17:39:30 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.394Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-22-33-773Z_linestring.geojson.backup
+2025-06-29T08:33:21.394Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-22-33-773Z_linestring.geojson
+2025-06-29T08:33:21.394Z [INFO]: [65/110] ✅ Migration réussie
+2025-06-29T08:33:21.394Z [INFO]: [66/110] Traitement du trajet 350612075136687 - Mon Jun 16 2025 15:28:17 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.395Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-17-32-092Z_linestring.geojson.backup
+2025-06-29T08:33:21.396Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-17-32-092Z_linestring.geojson
+2025-06-29T08:33:21.396Z [INFO]: [66/110] ✅ Migration réussie
+2025-06-29T08:33:21.396Z [INFO]: [67/110] Traitement du trajet 350612075136687 - Mon Jun 16 2025 06:25:35 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.397Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-23-09-790Z_linestring.geojson.backup
+2025-06-29T08:33:21.398Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-23-09-790Z_linestring.geojson
+2025-06-29T08:33:21.398Z [INFO]: [67/110] ✅ Migration réussie
+2025-06-29T08:33:21.398Z [INFO]: [68/110] Traitement du trajet 352016700394133 - Mon Jun 16 2025 05:57:25 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.399Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-35-38-493Z_linestring.geojson.backup
+2025-06-29T08:33:21.399Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-35-38-493Z_linestring.geojson
+2025-06-29T08:33:21.399Z [INFO]: [68/110] ✅ Migration réussie
+2025-06-29T08:33:21.399Z [INFO]: [69/110] Traitement du trajet 352016700394133 - Sun Jun 15 2025 20:11:53 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.400Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-41-38-531Z_linestring.geojson.backup
+2025-06-29T08:33:21.401Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-41-38-531Z_linestring.geojson
+2025-06-29T08:33:21.401Z [INFO]: [69/110] ✅ Migration réussie
+2025-06-29T08:33:21.401Z [INFO]: [70/110] Traitement du trajet 352016700394133 - Sun Jun 15 2025 17:52:03 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.402Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-46-08-674Z_linestring.geojson.backup
+2025-06-29T08:33:21.403Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-46-08-674Z_linestring.geojson
+2025-06-29T08:33:21.403Z [INFO]: [70/110] ✅ Migration réussie
+2025-06-29T08:33:21.403Z [INFO]: [71/110] Traitement du trajet 352016700394133 - Sun Jun 15 2025 12:49:56 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.404Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-53-38-592Z_linestring.geojson.backup
+2025-06-29T08:33:21.404Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-53-38-592Z_linestring.geojson
+2025-06-29T08:33:21.404Z [INFO]: [71/110] ✅ Migration réussie
+2025-06-29T08:33:21.504Z [INFO]: [72/110] Traitement du trajet 352016700394133 - Sun Jun 15 2025 10:02:58 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.506Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-57-07-914Z_linestring.geojson.backup
+2025-06-29T08:33:21.506Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-57-07-914Z_linestring.geojson
+2025-06-29T08:33:21.506Z [INFO]: [72/110] ✅ Migration réussie
+2025-06-29T08:33:21.507Z [INFO]: [73/110] Traitement du trajet 352016700394133 - Sun Jun 15 2025 08:10:26 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.507Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-59-40-871Z_linestring.geojson.backup
+2025-06-29T08:33:21.508Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-59-40-871Z_linestring.geojson
+2025-06-29T08:33:21.508Z [INFO]: [73/110] ✅ Migration réussie
+2025-06-29T08:33:21.508Z [INFO]: [74/110] Traitement du trajet 350612075136687 - Sun Jun 15 2025 07:09:31 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.508Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-35-03-789Z_linestring.geojson.backup
+2025-06-29T08:33:21.509Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-35-03-789Z_linestring.geojson
+2025-06-29T08:33:21.509Z [INFO]: [74/110] ✅ Migration réussie
+2025-06-29T08:33:21.509Z [INFO]: [75/110] Traitement du trajet 350612075136687 - Sun Jun 15 2025 06:47:14 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.510Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-35-33-273Z_linestring.geojson.backup
+2025-06-29T08:33:21.510Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-35-33-273Z_linestring.geojson
+2025-06-29T08:33:21.510Z [INFO]: [75/110] ✅ Migration réussie
+2025-06-29T08:33:21.510Z [INFO]: [76/110] Traitement du trajet 352016700394133 - Sun Jun 15 2025 04:22:12 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.511Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T08-03-10-331Z_linestring.geojson.backup
+2025-06-29T08:33:21.511Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T08-03-10-331Z_linestring.geojson
+2025-06-29T08:33:21.511Z [INFO]: [76/110] ✅ Migration réussie
+2025-06-29T08:33:21.511Z [INFO]: [77/110] Traitement du trajet 352016700394133 - Sat Jun 14 2025 21:00:38 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.512Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T08-09-39-371Z_linestring.geojson.backup
+2025-06-29T08:33:21.512Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T08-09-39-371Z_linestring.geojson
+2025-06-29T08:33:21.512Z [INFO]: [77/110] ✅ Migration réussie
+2025-06-29T08:33:21.512Z [INFO]: [78/110] Traitement du trajet 350612075136687 - Sat Jun 14 2025 17:26:57 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.513Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-41-35-391Z_linestring.geojson.backup
+2025-06-29T08:33:21.513Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-41-35-391Z_linestring.geojson
+2025-06-29T08:33:21.513Z [INFO]: [78/110] ✅ Migration réussie
+2025-06-29T08:33:21.513Z [INFO]: [79/110] Traitement du trajet 350612075136687 - Sat Jun 14 2025 17:09:00 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.514Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-42-01-691Z_linestring.geojson.backup
+2025-06-29T08:33:21.514Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-42-01-691Z_linestring.geojson
+2025-06-29T08:33:21.514Z [INFO]: [79/110] ✅ Migration réussie
+2025-06-29T08:33:21.514Z [INFO]: [80/110] Traitement du trajet 352016700394133 - Sat Jun 14 2025 16:48:37 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.516Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T08-21-07-812Z_linestring.geojson.backup
+2025-06-29T08:33:21.516Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T08-21-07-812Z_linestring.geojson
+2025-06-29T08:33:21.516Z [INFO]: [80/110] ✅ Migration réussie
+2025-06-29T08:33:21.516Z [INFO]: [81/110] Traitement du trajet 350612075136687 - Sat Jun 14 2025 16:47:26 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.517Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-42-32-529Z_linestring.geojson.backup
+2025-06-29T08:33:21.517Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-42-32-529Z_linestring.geojson
+2025-06-29T08:33:21.517Z [INFO]: [81/110] ✅ Migration réussie
+2025-06-29T08:33:21.617Z [INFO]: [82/110] Traitement du trajet 350612075136687 - Sat Jun 14 2025 14:21:03 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.618Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-43-31-713Z_linestring.geojson.backup
+2025-06-29T08:33:21.618Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-43-31-713Z_linestring.geojson
+2025-06-29T08:33:21.619Z [INFO]: [82/110] ✅ Migration réussie
+2025-06-29T08:33:21.619Z [INFO]: [83/110] Traitement du trajet 350612075136687 - Fri Jun 13 2025 17:21:43 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.619Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-51-01-293Z_linestring.geojson.backup
+2025-06-29T08:33:21.620Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-51-01-293Z_linestring.geojson
+2025-06-29T08:33:21.620Z [INFO]: [83/110] ✅ Migration réussie
+2025-06-29T08:33:21.620Z [INFO]: [84/110] Traitement du trajet 350612075136687 - Fri Jun 13 2025 15:37:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.622Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-52-03-951Z_linestring.geojson.backup
+2025-06-29T08:33:21.623Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-52-03-951Z_linestring.geojson
+2025-06-29T08:33:21.623Z [INFO]: [84/110] ✅ Migration réussie
+2025-06-29T08:33:21.623Z [INFO]: [85/110] Traitement du trajet 350612075136687 - Fri Jun 13 2025 10:25:37 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.624Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-55-33-651Z_linestring.geojson.backup
+2025-06-29T08:33:21.625Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-55-33-651Z_linestring.geojson
+2025-06-29T08:33:21.625Z [INFO]: [85/110] ✅ Migration réussie
+2025-06-29T08:33:21.625Z [INFO]: [86/110] Traitement du trajet 350612075136687 - Fri Jun 13 2025 06:33:43 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.626Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-57-33-490Z_linestring.geojson.backup
+2025-06-29T08:33:21.627Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-57-33-490Z_linestring.geojson
+2025-06-29T08:33:21.627Z [INFO]: [86/110] ✅ Migration réussie
+2025-06-29T08:33:21.627Z [INFO]: [87/110] Traitement du trajet 350612075136687 - Thu Jun 12 2025 15:18:05 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.628Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-05-06-211Z_linestring.geojson.backup
+2025-06-29T08:33:21.629Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-05-06-211Z_linestring.geojson
+2025-06-29T08:33:21.629Z [INFO]: [87/110] ✅ Migration réussie
+2025-06-29T08:33:21.629Z [INFO]: [88/110] Traitement du trajet 350612075136687 - Thu Jun 12 2025 10:21:57 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.631Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-08-02-451Z_linestring.geojson.backup
+2025-06-29T08:33:21.632Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-08-02-451Z_linestring.geojson
+2025-06-29T08:33:21.632Z [INFO]: [88/110] ✅ Migration réussie
+2025-06-29T08:33:21.632Z [INFO]: [89/110] Traitement du trajet 350612075136687 - Thu Jun 12 2025 06:19:36 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.633Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-10-02-374Z_linestring.geojson.backup
+2025-06-29T08:33:21.634Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-10-02-374Z_linestring.geojson
+2025-06-29T08:33:21.634Z [INFO]: [89/110] ✅ Migration réussie
+2025-06-29T08:33:21.634Z [INFO]: [90/110] Traitement du trajet 350612075136687 - Wed Jun 11 2025 16:11:02 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.635Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-15-31-773Z_linestring.geojson.backup
+2025-06-29T08:33:21.636Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-15-31-773Z_linestring.geojson
+2025-06-29T08:33:21.637Z [INFO]: [90/110] ✅ Migration réussie
+2025-06-29T08:33:21.637Z [INFO]: [91/110] Traitement du trajet 350612075136687 - Wed Jun 11 2025 16:02:46 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.638Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-16-01-592Z_linestring.geojson.backup
+2025-06-29T08:33:21.639Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-16-01-592Z_linestring.geojson
+2025-06-29T08:33:21.639Z [INFO]: [91/110] ✅ Migration réussie
+2025-06-29T08:33:21.740Z [INFO]: [92/110] Traitement du trajet 350612075136687 - Wed Jun 11 2025 15:34:52 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.741Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-17-33-789Z_linestring.geojson.backup
+2025-06-29T08:33:21.742Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-17-33-789Z_linestring.geojson
+2025-06-29T08:33:21.742Z [INFO]: [92/110] ✅ Migration réussie
+2025-06-29T08:33:21.742Z [INFO]: [93/110] Traitement du trajet 350612075136687 - Wed Jun 11 2025 06:42:42 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.743Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-21-04-869Z_linestring.geojson.backup
+2025-06-29T08:33:21.743Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-21-04-869Z_linestring.geojson
+2025-06-29T08:33:21.743Z [INFO]: [93/110] ✅ Migration réussie
+2025-06-29T08:33:21.743Z [INFO]: [94/110] Traitement du trajet 350612075136687 - Tue Jun 10 2025 15:30:18 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.744Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-28-34-673Z_linestring.geojson.backup
+2025-06-29T08:33:21.744Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-28-34-673Z_linestring.geojson
+2025-06-29T08:33:21.744Z [INFO]: [94/110] ✅ Migration réussie
+2025-06-29T08:33:21.744Z [INFO]: [95/110] Traitement du trajet 350612075136687 - Tue Jun 10 2025 10:28:29 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.745Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-32-31-475Z_linestring.geojson.backup
+2025-06-29T08:33:21.745Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-32-31-475Z_linestring.geojson
+2025-06-29T08:33:21.745Z [INFO]: [95/110] ✅ Migration réussie
+2025-06-29T08:33:21.745Z [INFO]: [96/110] Traitement du trajet 350612075136687 - Tue Jun 10 2025 07:19:02 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.747Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-33-31-632Z_linestring.geojson.backup
+2025-06-29T08:33:21.748Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-33-31-632Z_linestring.geojson
+2025-06-29T08:33:21.748Z [INFO]: [96/110] ✅ Migration réussie
+2025-06-29T08:33:21.748Z [INFO]: [97/110] Traitement du trajet 350612075136687 - Tue Jun 10 2025 06:27:13 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.749Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-36-31-731Z_linestring.geojson.backup
+2025-06-29T08:33:21.750Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-36-31-731Z_linestring.geojson
+2025-06-29T08:33:21.750Z [INFO]: [97/110] ✅ Migration réussie
+2025-06-29T08:33:21.750Z [INFO]: [98/110] Traitement du trajet 350612075136687 - Mon Jun 09 2025 09:27:39 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.751Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-53-32-852Z_linestring.geojson.backup
+2025-06-29T08:33:21.752Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-53-32-852Z_linestring.geojson
+2025-06-29T08:33:21.752Z [INFO]: [98/110] ✅ Migration réussie
+2025-06-29T08:33:21.752Z [INFO]: [99/110] Traitement du trajet 350612075136687 - Mon Jun 09 2025 09:01:33 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.754Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-54-35-012Z_linestring.geojson.backup
+2025-06-29T08:33:21.755Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-54-35-012Z_linestring.geojson
+2025-06-29T08:33:21.755Z [INFO]: [99/110] ✅ Migration réussie
+2025-06-29T08:33:21.755Z [INFO]: [100/110] Traitement du trajet 350612075136687 - Sat Jun 07 2025 21:07:36 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.755Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-07-37-831Z_linestring.geojson.backup
+2025-06-29T08:33:21.756Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-07-37-831Z_linestring.geojson
+2025-06-29T08:33:21.756Z [INFO]: [100/110] ✅ Migration réussie
+2025-06-29T08:33:21.756Z [INFO]: [101/110] Traitement du trajet 350612075136687 - Sat Jun 07 2025 11:03:15 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.757Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-13-36-156Z_linestring.geojson.backup
+2025-06-29T08:33:21.758Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-13-36-156Z_linestring.geojson
+2025-06-29T08:33:21.758Z [INFO]: [101/110] ✅ Migration réussie
+2025-06-29T08:33:21.858Z [INFO]: [102/110] Traitement du trajet 350612075136687 - Fri Jun 06 2025 19:39:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.859Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-20-03-369Z_linestring.geojson.backup
+2025-06-29T08:33:21.860Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-20-03-369Z_linestring.geojson
+2025-06-29T08:33:21.861Z [INFO]: [102/110] ✅ Migration réussie
+2025-06-29T08:33:21.861Z [INFO]: [103/110] Traitement du trajet 350612075136687 - Fri Jun 06 2025 15:11:19 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.862Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-23-03-370Z_linestring.geojson.backup
+2025-06-29T08:33:21.863Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-23-03-370Z_linestring.geojson
+2025-06-29T08:33:21.863Z [INFO]: [103/110] ✅ Migration réussie
+2025-06-29T08:33:21.863Z [INFO]: [104/110] Traitement du trajet 350612075136687 - Fri Jun 06 2025 12:39:55 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.864Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-26-02-649Z_linestring.geojson.backup
+2025-06-29T08:33:21.865Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-26-02-649Z_linestring.geojson
+2025-06-29T08:33:21.865Z [INFO]: [104/110] ✅ Migration réussie
+2025-06-29T08:33:21.865Z [INFO]: [105/110] Traitement du trajet 350612075136687 - Fri Jun 06 2025 11:12:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.866Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-27-01-113Z_linestring.geojson.backup
+2025-06-29T08:33:21.866Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-27-01-113Z_linestring.geojson
+2025-06-29T08:33:21.866Z [INFO]: [105/110] ✅ Migration réussie
+2025-06-29T08:33:21.867Z [INFO]: [106/110] Traitement du trajet 350612075136687 - Fri Jun 06 2025 10:30:14 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.867Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-29-37-592Z_linestring.geojson.backup
+2025-06-29T08:33:21.868Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-29-37-592Z_linestring.geojson
+2025-06-29T08:33:21.868Z [INFO]: [106/110] ✅ Migration réussie
+2025-06-29T08:33:21.868Z [INFO]: [107/110] Traitement du trajet 350612075136687 - Fri Jun 06 2025 05:19:22 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.869Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-39-14-793Z_linestring.geojson.backup
+2025-06-29T08:33:21.869Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-39-14-793Z_linestring.geojson
+2025-06-29T08:33:21.870Z [INFO]: [107/110] ✅ Migration réussie
+2025-06-29T08:33:21.870Z [INFO]: [108/110] Traitement du trajet 350612075136687 - Thu Jun 05 2025 19:25:08 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.871Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-47-39-230Z_linestring.geojson.backup
+2025-06-29T08:33:21.871Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-47-39-230Z_linestring.geojson
+2025-06-29T08:33:21.871Z [INFO]: [108/110] ✅ Migration réussie
+2025-06-29T08:33:21.871Z [INFO]: [109/110] Traitement du trajet 350612075136687 - Wed Jun 04 2025 19:42:52 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.872Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T22-00-38-570Z_linestring.geojson.backup
+2025-06-29T08:33:21.873Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T22-00-38-570Z_linestring.geojson
+2025-06-29T08:33:21.873Z [INFO]: [109/110] ✅ Migration réussie
+2025-06-29T08:33:21.873Z [INFO]: [110/110] Traitement du trajet 350612075136687 - Wed Jun 04 2025 15:18:45 GMT+0000 (Coordinated Universal Time)
+2025-06-29T08:33:21.874Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T22-04-38-391Z_linestring.geojson.backup
+2025-06-29T08:33:21.874Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T22-04-38-391Z_linestring.geojson
+2025-06-29T08:33:21.874Z [INFO]: [110/110] ✅ Migration réussie
+2025-06-29T08:33:21.875Z [INFO]: 🎉 Migration terminée!
+2025-06-29T08:33:21.875Z [INFO]: 📈 Résultats:
+2025-06-29T08:33:21.875Z [INFO]:    ✅ Succès: 110
+2025-06-29T08:33:21.875Z [INFO]:    ⚠️  Ignorés: 0
+2025-06-29T08:33:21.875Z [INFO]:    ❌ Erreurs: 0
+2025-06-29T08:33:21.875Z [INFO]:    📊 Total: 110
+2025-06-29T08:33:21.875Z [INFO]: ✅ Migration terminée avec succès!
