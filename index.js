@@ -196,6 +196,90 @@ app.get('/api/get_historiques_trajets/', async (req, res) => {
   }
 });
 
+// Nouvelle API pour récupérer l'historique des trajets
+app.get('/api/trips_history', async (req, res) => {
+  try {
+    const { device_uid, start_date, end_date, limit } = req.query;
+    
+    let query = `
+      SELECT 
+        ID, 
+        DEVICE_UID, 
+        TRIP_START, 
+        TRIP_END, 
+        PATH_FILE, 
+        LATITUDE, 
+        LONGITUDE
+      FROM path_histo_trajet_geojson
+    `;
+    
+    const params = [];
+    const conditions = [];
+    
+    if (device_uid) {
+      if (!isValidImei(device_uid)) {
+        return res.status(400).json({ error: 'Invalid DEVICE_UID format' });
+      }
+      conditions.push('DEVICE_UID = ?');
+      params.push(device_uid);
+    }
+    
+    if (start_date) {
+      conditions.push('TRIP_START >= ?');
+      params.push(start_date);
+    }
+    
+    if (end_date) {
+      conditions.push('TRIP_END <= ?');
+      params.push(end_date);
+    }
+    
+    if (conditions.length > 0) {
+      query += ' WHERE ' + conditions.join(' AND ');
+    }
+    
+    query += ' ORDER BY TRIP_END DESC';
+    
+    if (limit) {
+      const parsedLimit = parseInt(limit);
+      if (!isNaN(parsedLimit) && parsedLimit > 0) {
+        query += ' LIMIT ?';
+        params.push(parsedLimit);
+      }
+    }
+    
+    const [rows] = await db.execute(query, params);
+    
+    const results = rows.map(row => {
+      const filename = path.basename(row.PATH_FILE);
+      return {
+        id: row.ID,
+        device_uid: row.DEVICE_UID,
+        trip_start: row.TRIP_START,
+        trip_end: row.TRIP_END,
+        path_file: row.PATH_FILE,
+        latitude: parseFloat(row.LATITUDE),
+        longitude: parseFloat(row.LONGITUDE),
+        geojson_url: `/api/geojson/${row.DEVICE_UID}/${filename}`,
+        geojson_full_url: `http://31.97.54.87:${HTTP_PORT}/api/geojson/${row.DEVICE_UID}/${filename}`
+      };
+    });
+    
+    res.json({
+      success: true,
+      count: results.length,
+      data: results
+    });
+    
+  } catch (error) {
+    logger.error('Error in /api/trips_history:', error);
+    res.status(500).json({
+      success: false,
+      error: 'Internal server error',
+      details: error.message
+    });
+  }
+});
 app.get('/api/last-trajets', async (req, res) => {
   try {
     const [rows] = await db.execute(`
@@ -213,6 +297,109 @@ app.get('/api/last-trajets', async (req, res) => {
     res.status(500).json({ message: 'Server error' });
   }
 });
+
+// Nouvelle API pour les temps de course et repos
+app.get('/api/get_trip_data/', async (req, res) => {
+  try {
+    const { device_uid } = req.query;
+
+    if (!device_uid || !isValidImei(device_uid)) {
+      return res.status(400).json({ message: 'Valid DEVICE_UID (15 digits) required' });
+    }
+
+    const [trips] = await db.execute(
+      `SELECT TRIP_START, TRIP_END, LATITUDE, LONGITUDE 
+       FROM path_histo_trajet_geojson 
+       WHERE DEVICE_UID = ? 
+       ORDER BY TRIP_END DESC`,
+      [device_uid]
+    );
+
+    if (trips.length === 0) {
+      return res.status(404).json({ message: 'No trips found for this device' });
+    }
+
+    const tripData = trips.map((trip, index) => {
+      const startTime = new Date(trip.TRIP_START);
+      const endTime = new Date(trip.TRIP_END);
+      
+      const tripDuration = (endTime - startTime) / (1000 * 60);
+      
+      let restDuration = 0;
+      if (index < trips.length - 1) {
+        const nextTripStart = new Date(trips[index + 1].TRIP_START);
+        restDuration = (nextTripStart - endTime) / (1000 * 60);
+      }
+
+      // Conversion explicite en nombres
+      const endLat = parseFloat(trip.LATITUDE);
+      const endLng = parseFloat(trip.LONGITUDE);
+
+      return {
+        trip_start: trip.TRIP_START,
+        trip_end: trip.TRIP_END,
+        trip_duration_minutes: tripDuration.toFixed(2),
+        rest_duration_minutes: restDuration.toFixed(2),
+        end_latitude: isNaN(endLat) ? null : endLat,
+        end_longitude: isNaN(endLng) ? null : endLng
+      };
+    });
+
+    res.json(tripData);
+  } catch (error) {
+    logger.error('Error fetching trip data:', error);
+    res.status(500).json({ message: 'Server error' });
+  }
+});
+
+// Fonction courseCard
+async function courseCard(req, res) {
+  try {
+    const { device_uid } = req.query;
+
+    if (!device_uid || !isValidImei(device_uid)) {
+      return res.status(400).json({ message: 'Valid DEVICE_UID (15 digits) required' });
+    }
+
+    // Récupérer les données de l'API interne
+    const response = await fetch(`http://31.97.54.87/:${HTTP_PORT}/api/get_trip_data/?device_uid=${device_uid}`);
+    if (!response.ok) {
+      throw new Error(`API request failed with status ${response.status}`);
+    }
+
+    const tripData = await response.json();
+
+    // Formater les données pour la réponse
+    const formattedData = tripData.map(trip => ({
+      start_time: trip.trip_start,
+      end_time: trip.trip_end,
+      duration: `${trip.trip_duration_minutes} minutes`,
+      rest_time: trip.rest_duration_minutes > 0 ? 
+                `${trip.rest_duration_minutes} minutes` : 
+                'N/A (last trip)',
+      end_position: {
+        latitude: trip.end_latitude,
+        longitude: trip.end_longitude
+      }
+    }));
+
+    res.json({
+      status: 'success',
+      device_uid,
+      trip_count: formattedData.length,
+      trips: formattedData
+    });
+  } catch (error) {
+    logger.error('Error in courseCard:', error);
+    res.status(500).json({ 
+      status: 'error',
+      message: error.message 
+    });
+  }
+}
+
+// Ajouter la route pour courseCard
+app.get('/api/course_card', courseCard);
 
 // Socket.IO
 io.on('connection', socket => {

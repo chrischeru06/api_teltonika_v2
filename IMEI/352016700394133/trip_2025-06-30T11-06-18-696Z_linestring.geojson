@@ -1,0 +1,108 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3612333,
+          -3.3689383
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-30 11:03:26",
+        "speed": 11,
+        "angle": 352,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "352016700394133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.3612283,
+          -3.3689099
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-30 11:03:27",
+        "speed": 11,
+        "angle": 353,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "352016700394133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.361225,
+          -3.3688799
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-30 11:03:28",
+        "speed": 12,
+        "angle": 353,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "352016700394133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.361225,
+          -3.3688799
+        ]
+      },
+      "properties": {
+        "timestamp": "2025-06-30 11:03:28",
+        "speed": 12,
+        "angle": 353,
+        "satellites": 15,
+        "layer": "point",
+        "device_uid": "352016700394133"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            29.3612333,
+            -3.3689383
+          ],
+          [
+            29.3612283,
+            -3.3689099
+          ],
+          [
+            29.361225,
+            -3.3688799
+          ],
+          [
+            29.361225,
+            -3.3688799
+          ]
+        ]
+      },
+      "properties": {
+        "layer": "path",
+        "trip_start": "2025-06-30 11:03:28",
+        "trip_end": "2025-06-30 11:06:17",
+        "total_points": 4,
+        "device_uid": "352016700394133"
+      }
+    }
+  ]
+}

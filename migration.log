@@ -448,3 +448,484 @@
 2025-06-29T08:33:21.875Z [INFO]:    ❌ Erreurs: 0
 2025-06-29T08:33:21.875Z [INFO]:    📊 Total: 110
 2025-06-29T08:33:21.875Z [INFO]: ✅ Migration terminée avec succès!
+2025-06-29T13:03:33.238Z [INFO]: ✅ Connexion à la base de données établie
+2025-06-29T13:03:33.240Z [INFO]: 🚀 Début de la migration des trajets...
+2025-06-29T13:03:33.263Z [INFO]: 📊 113 trajets trouvés dans la base de données
+2025-06-29T13:03:33.263Z [INFO]: [1/113] Traitement du trajet 350612075136688 - Sun Jun 29 2025 12:43:28 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.265Z [INFO]: 📁 Sauvegarde créée: /var/www/html/api_teltonika/IMEI/350612075136688/trip_2025-06-29T12-46-11-540Z_linestring.geojson.backup
+2025-06-29T13:03:33.267Z [INFO]: ✅ Fichier migré: /var/www/html/api_teltonika/IMEI/350612075136688/trip_2025-06-29T12-46-11-540Z_linestring.geojson
+2025-06-29T13:03:33.267Z [INFO]: [1/113] ✅ Migration réussie
+2025-06-29T13:03:33.267Z [INFO]: [2/113] Traitement du trajet 350612075136687 - Sun Jun 29 2025 10:44:15 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.271Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-29T11-11-53-874Z_linestring.geojson
+2025-06-29T13:03:33.271Z [INFO]: [3/113] Traitement du trajet 352016700394133 - Sun Jun 29 2025 10:21:52 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.272Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-29T10-37-38-233Z_linestring.geojson
+2025-06-29T13:03:33.272Z [INFO]: [4/113] Traitement du trajet 352016700394133 - Sat Jun 28 2025 17:12:39 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.280Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T18-26-17-091Z_linestring.geojson
+2025-06-29T13:03:33.280Z [INFO]: [5/113] Traitement du trajet 350612075136687 - Sat Jun 28 2025 14:13:23 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.281Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-28T14-18-55-871Z_linestring.geojson
+2025-06-29T13:03:33.281Z [INFO]: [6/113] Traitement du trajet 352016700394133 - Sat Jun 28 2025 13:09:57 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.284Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T14-10-05-951Z_linestring.geojson
+2025-06-29T13:03:33.284Z [INFO]: [7/113] Traitement du trajet 352016700394133 - Sat Jun 28 2025 12:50:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.286Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T13-06-15-573Z_linestring.geojson
+2025-06-29T13:03:33.286Z [INFO]: [8/113] Traitement du trajet 350612075136687 - Sat Jun 28 2025 09:49:07 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.287Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-28T09-55-31-474Z_linestring.geojson
+2025-06-29T13:03:33.287Z [INFO]: [9/113] Traitement du trajet 350612075136687 - Fri Jun 27 2025 16:09:58 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.288Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T16-20-28-553Z_linestring.geojson
+2025-06-29T13:03:33.289Z [INFO]: [10/113] Traitement du trajet 350612075136687 - Fri Jun 27 2025 16:02:33 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.289Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T16-09-29-075Z_linestring.geojson
+2025-06-29T13:03:33.289Z [INFO]: [11/113] Traitement du trajet 350612075136687 - Fri Jun 27 2025 13:06:16 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.293Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T13-19-15-034Z_linestring.geojson
+2025-06-29T13:03:33.293Z [INFO]: [12/113] Traitement du trajet 350612075136687 - Fri Jun 27 2025 11:56:28 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.294Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T12-02-12-063Z_linestring.geojson
+2025-06-29T13:03:33.294Z [INFO]: [13/113] Traitement du trajet 350612075136687 - Fri Jun 27 2025 11:45:23 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.294Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T11-48-59-941Z_linestring.geojson
+2025-06-29T13:03:33.294Z [INFO]: [14/113] Traitement du trajet 350612075136687 - Fri Jun 27 2025 11:17:35 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.295Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T11-25-13-020Z_linestring.geojson
+2025-06-29T13:03:33.295Z [INFO]: [15/113] Traitement du trajet 350612075136687 - Fri Jun 27 2025 10:37:22 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.296Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T10-46-35-799Z_linestring.geojson
+2025-06-29T13:03:33.296Z [INFO]: [16/113] Traitement du trajet 350612075136687 - Fri Jun 27 2025 09:07:10 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.297Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T09-17-07-613Z_linestring.geojson
+2025-06-29T13:03:33.297Z [INFO]: [17/113] Traitement du trajet 350612075136687 - Thu Jun 26 2025 15:32:31 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.298Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T15-40-49-819Z_linestring.geojson
+2025-06-29T13:03:33.298Z [INFO]: [18/113] Traitement du trajet 350612075136687 - Thu Jun 26 2025 15:19:52 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.299Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T15-24-21-816Z_linestring.geojson
+2025-06-29T13:03:33.299Z [INFO]: [19/113] Traitement du trajet 350612075136687 - Thu Jun 26 2025 15:08:27 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.299Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T15-13-56-817Z_linestring.geojson
+2025-06-29T13:03:33.299Z [INFO]: [20/113] Traitement du trajet 350612075136687 - Thu Jun 26 2025 09:05:42 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.300Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T09-17-33-254Z_linestring.geojson
+2025-06-29T13:03:33.300Z [INFO]: [21/113] Traitement du trajet 350612075136687 - Thu Jun 26 2025 07:20:35 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.301Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T07-27-27-072Z_linestring.geojson
+2025-06-29T13:03:33.301Z [INFO]: [22/113] Traitement du trajet 350612075136687 - Thu Jun 26 2025 06:38:58 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.302Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T06-44-37-234Z_linestring.geojson
+2025-06-29T13:03:33.302Z [INFO]: [23/113] Traitement du trajet 350612075136687 - Tue Jun 24 2025 15:49:53 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.302Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T15-55-39-832Z_linestring.geojson
+2025-06-29T13:03:33.302Z [INFO]: [24/113] Traitement du trajet 350612075136687 - Tue Jun 24 2025 15:39:08 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.303Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T15-44-55-953Z_linestring.geojson
+2025-06-29T13:03:33.303Z [INFO]: [25/113] Traitement du trajet 350612075136687 - Tue Jun 24 2025 15:34:38 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.303Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T15-39-06-190Z_linestring.geojson
+2025-06-29T13:03:33.303Z [INFO]: [26/113] Traitement du trajet 350612075136687 - Tue Jun 24 2025 15:23:19 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.304Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T15-28-41-031Z_linestring.geojson
+2025-06-29T13:03:33.304Z [INFO]: [27/113] Traitement du trajet 350612075136687 - Tue Jun 24 2025 10:17:03 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.305Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T10-41-45-948Z_linestring.geojson
+2025-06-29T13:03:33.305Z [INFO]: [28/113] Traitement du trajet 350612075136687 - Tue Jun 24 2025 07:56:57 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.305Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T07-58-32-211Z_linestring.geojson
+2025-06-29T13:03:33.305Z [INFO]: [29/113] Traitement du trajet 350612075136687 - Mon Jun 23 2025 15:27:18 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.306Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T15-54-04-509Z_linestring.geojson
+2025-06-29T13:03:33.306Z [INFO]: [30/113] Traitement du trajet 350612075136687 - Mon Jun 23 2025 11:40:07 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.306Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T15-56-31-269Z_linestring.geojson
+2025-06-29T13:03:33.306Z [INFO]: [31/113] Traitement du trajet 350612075136687 - Mon Jun 23 2025 10:31:20 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.306Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-00-05-530Z_linestring.geojson
+2025-06-29T13:03:33.307Z [INFO]: [32/113] Traitement du trajet 350612075136687 - Mon Jun 23 2025 06:40:46 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.307Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-01-32-372Z_linestring.geojson
+2025-06-29T13:03:33.307Z [INFO]: [33/113] Traitement du trajet 350612075136687 - Sun Jun 22 2025 20:07:37 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.307Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-06-32-750Z_linestring.geojson
+2025-06-29T13:03:33.307Z [INFO]: [34/113] Traitement du trajet 350612075136687 - Sun Jun 22 2025 14:05:03 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.309Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-08-33-513Z_linestring.geojson
+2025-06-29T13:03:33.309Z [INFO]: [35/113] Traitement du trajet 350612075136687 - Sun Jun 22 2025 13:39:13 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.309Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-09-31-509Z_linestring.geojson
+2025-06-29T13:03:33.309Z [INFO]: [36/113] Traitement du trajet 350612075136687 - Sun Jun 22 2025 09:48:38 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.309Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-25-02-253Z_linestring.geojson
+2025-06-29T13:03:33.309Z [INFO]: [37/113] Traitement du trajet 352016700394133 - Sat Jun 21 2025 17:30:44 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.310Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-23T13-34-59-233Z_linestring.geojson
+2025-06-29T13:03:33.310Z [INFO]: [38/113] Traitement du trajet 350612075136687 - Sat Jun 21 2025 16:36:12 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.310Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-35-02-411Z_linestring.geojson
+2025-06-29T13:03:33.310Z [INFO]: [39/113] Traitement du trajet 350612075136687 - Sat Jun 21 2025 11:27:55 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.310Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T17-51-32-431Z_linestring.geojson
+2025-06-29T13:03:33.310Z [INFO]: [40/113] Traitement du trajet 352016700394133 - Fri Jun 20 2025 19:06:35 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.312Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-23T13-43-58-417Z_linestring.geojson
+2025-06-29T13:03:33.312Z [INFO]: [41/113] Traitement du trajet 350612075136687 - Fri Jun 20 2025 16:37:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.312Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-03-31-131Z_linestring.geojson
+2025-06-29T13:03:33.312Z [INFO]: [42/113] Traitement du trajet 352016700394133 - Fri Jun 20 2025 16:04:48 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.313Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-23T13-46-00-356Z_linestring.geojson
+2025-06-29T13:03:33.313Z [INFO]: [43/113] Traitement du trajet 350612075136687 - Fri Jun 20 2025 15:10:15 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.313Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-04-33-231Z_linestring.geojson
+2025-06-29T13:03:33.314Z [INFO]: [44/113] Traitement du trajet 350612075136687 - Fri Jun 20 2025 11:51:13 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.314Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-07-01-713Z_linestring.geojson
+2025-06-29T13:03:33.314Z [INFO]: [45/113] Traitement du trajet 350612075136687 - Fri Jun 20 2025 11:19:00 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.314Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-08-33-112Z_linestring.geojson
+2025-06-29T13:03:33.314Z [INFO]: [46/113] Traitement du trajet 350612075136687 - Fri Jun 20 2025 10:10:15 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.314Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-12-05-752Z_linestring.geojson
+2025-06-29T13:03:33.315Z [INFO]: [47/113] Traitement du trajet 350612075136687 - Fri Jun 20 2025 06:30:33 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.315Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-14-01-473Z_linestring.geojson
+2025-06-29T13:03:33.315Z [INFO]: [48/113] Traitement du trajet 350612075136687 - Thu Jun 19 2025 15:42:12 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.315Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-20-05-290Z_linestring.geojson
+2025-06-29T13:03:33.315Z [INFO]: [49/113] Traitement du trajet 350612075136687 - Thu Jun 19 2025 11:03:18 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.315Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-28-03-010Z_linestring.geojson
+2025-06-29T13:03:33.316Z [INFO]: [50/113] Traitement du trajet 350612075136687 - Thu Jun 19 2025 10:48:22 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.316Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-29-32-111Z_linestring.geojson
+2025-06-29T13:03:33.316Z [INFO]: [51/113] Traitement du trajet 350612075136687 - Thu Jun 19 2025 10:00:56 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.316Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-30-33-152Z_linestring.geojson
+2025-06-29T13:03:33.316Z [INFO]: [52/113] Traitement du trajet 350612075136687 - Thu Jun 19 2025 06:16:56 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.316Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-33-02-391Z_linestring.geojson
+2025-06-29T13:03:33.316Z [INFO]: [53/113] Traitement du trajet 350612075136687 - Wed Jun 18 2025 15:44:38 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.316Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-40-32-570Z_linestring.geojson
+2025-06-29T13:03:33.316Z [INFO]: [54/113] Traitement du trajet 352016700394133 - Wed Jun 18 2025 14:30:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.317Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-27T12-52-08-215Z_linestring.geojson
+2025-06-29T13:03:33.317Z [INFO]: [55/113] Traitement du trajet 350612075136687 - Wed Jun 18 2025 11:11:05 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.317Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-47-02-855Z_linestring.geojson
+2025-06-29T13:03:33.317Z [INFO]: [56/113] Traitement du trajet 350612075136687 - Wed Jun 18 2025 10:15:20 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.317Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-49-34-031Z_linestring.geojson
+2025-06-29T13:03:33.317Z [INFO]: [57/113] Traitement du trajet 352016700394133 - Wed Jun 18 2025 07:35:12 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.318Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-27T15-36-16-871Z_linestring.geojson
+2025-06-29T13:03:33.318Z [INFO]: [58/113] Traitement du trajet 350612075136687 - Wed Jun 18 2025 06:19:16 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.318Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-52-02-770Z_linestring.geojson
+2025-06-29T13:03:33.318Z [INFO]: [59/113] Traitement du trajet 352016700394133 - Wed Jun 18 2025 06:07:42 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.318Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-27T15-37-47-093Z_linestring.geojson
+2025-06-29T13:03:33.318Z [INFO]: [60/113] Traitement du trajet 352016700394133 - Wed Jun 18 2025 05:05:21 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.319Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-03-33-514Z_linestring.geojson
+2025-06-29T13:03:33.319Z [INFO]: [61/113] Traitement du trajet 352016700394133 - Tue Jun 17 2025 22:29:00 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.319Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-08-04-673Z_linestring.geojson
+2025-06-29T13:03:33.319Z [INFO]: [62/113] Traitement du trajet 352016700394133 - Tue Jun 17 2025 18:51:15 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.319Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-09-04-370Z_linestring.geojson
+2025-06-29T13:03:33.319Z [INFO]: [63/113] Traitement du trajet 350612075136687 - Tue Jun 17 2025 15:27:21 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.319Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-01-00-992Z_linestring.geojson
+2025-06-29T13:03:33.319Z [INFO]: [64/113] Traitement du trajet 350612075136687 - Tue Jun 17 2025 14:01:27 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.320Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-02-05-709Z_linestring.geojson
+2025-06-29T13:03:33.320Z [INFO]: [65/113] Traitement du trajet 352016700394133 - Tue Jun 17 2025 06:42:47 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.320Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-15-07-012Z_linestring.geojson
+2025-06-29T13:03:33.320Z [INFO]: [66/113] Traitement du trajet 350612075136687 - Tue Jun 17 2025 06:28:10 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.320Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-10-35-812Z_linestring.geojson
+2025-06-29T13:03:33.320Z [INFO]: [67/113] Traitement du trajet 352016700394133 - Mon Jun 16 2025 22:41:18 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.320Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-19-33-893Z_linestring.geojson
+2025-06-29T13:03:33.320Z [INFO]: [68/113] Traitement du trajet 352016700394133 - Mon Jun 16 2025 17:39:30 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.320Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-22-33-773Z_linestring.geojson
+2025-06-29T13:03:33.321Z [INFO]: [69/113] Traitement du trajet 350612075136687 - Mon Jun 16 2025 15:28:17 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.321Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-17-32-092Z_linestring.geojson
+2025-06-29T13:03:33.321Z [INFO]: [70/113] Traitement du trajet 350612075136687 - Mon Jun 16 2025 06:25:35 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.321Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-23-09-790Z_linestring.geojson
+2025-06-29T13:03:33.321Z [INFO]: [71/113] Traitement du trajet 352016700394133 - Mon Jun 16 2025 05:57:25 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.321Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-35-38-493Z_linestring.geojson
+2025-06-29T13:03:33.321Z [INFO]: [72/113] Traitement du trajet 352016700394133 - Sun Jun 15 2025 20:11:53 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.322Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-41-38-531Z_linestring.geojson
+2025-06-29T13:03:33.322Z [INFO]: [73/113] Traitement du trajet 352016700394133 - Sun Jun 15 2025 17:52:03 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.322Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-46-08-674Z_linestring.geojson
+2025-06-29T13:03:33.322Z [INFO]: [74/113] Traitement du trajet 352016700394133 - Sun Jun 15 2025 12:49:56 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.322Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-53-38-592Z_linestring.geojson
+2025-06-29T13:03:33.322Z [INFO]: [75/113] Traitement du trajet 352016700394133 - Sun Jun 15 2025 10:02:58 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.322Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-57-07-914Z_linestring.geojson
+2025-06-29T13:03:33.322Z [INFO]: [76/113] Traitement du trajet 352016700394133 - Sun Jun 15 2025 08:10:26 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.322Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-59-40-871Z_linestring.geojson
+2025-06-29T13:03:33.323Z [INFO]: [77/113] Traitement du trajet 350612075136687 - Sun Jun 15 2025 07:09:31 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.323Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-35-03-789Z_linestring.geojson
+2025-06-29T13:03:33.323Z [INFO]: [78/113] Traitement du trajet 350612075136687 - Sun Jun 15 2025 06:47:14 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.323Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-35-33-273Z_linestring.geojson
+2025-06-29T13:03:33.323Z [INFO]: [79/113] Traitement du trajet 352016700394133 - Sun Jun 15 2025 04:22:12 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.323Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T08-03-10-331Z_linestring.geojson
+2025-06-29T13:03:33.323Z [INFO]: [80/113] Traitement du trajet 352016700394133 - Sat Jun 14 2025 21:00:38 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.323Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T08-09-39-371Z_linestring.geojson
+2025-06-29T13:03:33.323Z [INFO]: [81/113] Traitement du trajet 350612075136687 - Sat Jun 14 2025 17:26:57 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.323Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-41-35-391Z_linestring.geojson
+2025-06-29T13:03:33.323Z [INFO]: [82/113] Traitement du trajet 350612075136687 - Sat Jun 14 2025 17:09:00 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.323Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-42-01-691Z_linestring.geojson
+2025-06-29T13:03:33.323Z [INFO]: [83/113] Traitement du trajet 352016700394133 - Sat Jun 14 2025 16:48:37 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.324Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T08-21-07-812Z_linestring.geojson
+2025-06-29T13:03:33.324Z [INFO]: [84/113] Traitement du trajet 350612075136687 - Sat Jun 14 2025 16:47:26 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.324Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-42-32-529Z_linestring.geojson
+2025-06-29T13:03:33.324Z [INFO]: [85/113] Traitement du trajet 350612075136687 - Sat Jun 14 2025 14:21:03 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.324Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-43-31-713Z_linestring.geojson
+2025-06-29T13:03:33.324Z [INFO]: [86/113] Traitement du trajet 350612075136687 - Fri Jun 13 2025 17:21:43 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.324Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-51-01-293Z_linestring.geojson
+2025-06-29T13:03:33.324Z [INFO]: [87/113] Traitement du trajet 350612075136687 - Fri Jun 13 2025 15:37:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.325Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-52-03-951Z_linestring.geojson
+2025-06-29T13:03:33.325Z [INFO]: [88/113] Traitement du trajet 350612075136687 - Fri Jun 13 2025 10:25:37 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.325Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-55-33-651Z_linestring.geojson
+2025-06-29T13:03:33.325Z [INFO]: [89/113] Traitement du trajet 350612075136687 - Fri Jun 13 2025 06:33:43 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.325Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-57-33-490Z_linestring.geojson
+2025-06-29T13:03:33.325Z [INFO]: [90/113] Traitement du trajet 350612075136687 - Thu Jun 12 2025 15:18:05 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.326Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-05-06-211Z_linestring.geojson
+2025-06-29T13:03:33.326Z [INFO]: [91/113] Traitement du trajet 350612075136687 - Thu Jun 12 2025 10:21:57 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.326Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-08-02-451Z_linestring.geojson
+2025-06-29T13:03:33.326Z [INFO]: [92/113] Traitement du trajet 350612075136687 - Thu Jun 12 2025 06:19:36 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.327Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-10-02-374Z_linestring.geojson
+2025-06-29T13:03:33.327Z [INFO]: [93/113] Traitement du trajet 350612075136687 - Wed Jun 11 2025 16:11:02 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.327Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-15-31-773Z_linestring.geojson
+2025-06-29T13:03:33.327Z [INFO]: [94/113] Traitement du trajet 350612075136687 - Wed Jun 11 2025 16:02:46 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.328Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-16-01-592Z_linestring.geojson
+2025-06-29T13:03:33.328Z [INFO]: [95/113] Traitement du trajet 350612075136687 - Wed Jun 11 2025 15:34:52 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.328Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-17-33-789Z_linestring.geojson
+2025-06-29T13:03:33.328Z [INFO]: [96/113] Traitement du trajet 350612075136687 - Wed Jun 11 2025 06:42:42 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.328Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-21-04-869Z_linestring.geojson
+2025-06-29T13:03:33.328Z [INFO]: [97/113] Traitement du trajet 350612075136687 - Tue Jun 10 2025 15:30:18 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.328Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-28-34-673Z_linestring.geojson
+2025-06-29T13:03:33.328Z [INFO]: [98/113] Traitement du trajet 350612075136687 - Tue Jun 10 2025 10:28:29 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.328Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-32-31-475Z_linestring.geojson
+2025-06-29T13:03:33.328Z [INFO]: [99/113] Traitement du trajet 350612075136687 - Tue Jun 10 2025 07:19:02 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.329Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-33-31-632Z_linestring.geojson
+2025-06-29T13:03:33.329Z [INFO]: [100/113] Traitement du trajet 350612075136687 - Tue Jun 10 2025 06:27:13 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.329Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-36-31-731Z_linestring.geojson
+2025-06-29T13:03:33.329Z [INFO]: [101/113] Traitement du trajet 350612075136687 - Mon Jun 09 2025 09:27:39 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.330Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-53-32-852Z_linestring.geojson
+2025-06-29T13:03:33.330Z [INFO]: [102/113] Traitement du trajet 350612075136687 - Mon Jun 09 2025 09:01:33 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.330Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-54-35-012Z_linestring.geojson
+2025-06-29T13:03:33.330Z [INFO]: [103/113] Traitement du trajet 350612075136687 - Sat Jun 07 2025 21:07:36 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.331Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-07-37-831Z_linestring.geojson
+2025-06-29T13:03:33.331Z [INFO]: [104/113] Traitement du trajet 350612075136687 - Sat Jun 07 2025 11:03:15 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.331Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-13-36-156Z_linestring.geojson
+2025-06-29T13:03:33.331Z [INFO]: [105/113] Traitement du trajet 350612075136687 - Fri Jun 06 2025 19:39:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.331Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-20-03-369Z_linestring.geojson
+2025-06-29T13:03:33.331Z [INFO]: [106/113] Traitement du trajet 350612075136687 - Fri Jun 06 2025 15:11:19 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.331Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-23-03-370Z_linestring.geojson
+2025-06-29T13:03:33.332Z [INFO]: [107/113] Traitement du trajet 350612075136687 - Fri Jun 06 2025 12:39:55 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.332Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-26-02-649Z_linestring.geojson
+2025-06-29T13:03:33.332Z [INFO]: [108/113] Traitement du trajet 350612075136687 - Fri Jun 06 2025 11:12:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.332Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-27-01-113Z_linestring.geojson
+2025-06-29T13:03:33.332Z [INFO]: [109/113] Traitement du trajet 350612075136687 - Fri Jun 06 2025 10:30:14 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.333Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-29-37-592Z_linestring.geojson
+2025-06-29T13:03:33.333Z [INFO]: [110/113] Traitement du trajet 350612075136687 - Fri Jun 06 2025 05:19:22 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.333Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-39-14-793Z_linestring.geojson
+2025-06-29T13:03:33.333Z [INFO]: [111/113] Traitement du trajet 350612075136687 - Thu Jun 05 2025 19:25:08 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.333Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-47-39-230Z_linestring.geojson
+2025-06-29T13:03:33.333Z [INFO]: [112/113] Traitement du trajet 350612075136687 - Wed Jun 04 2025 19:42:52 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.333Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T22-00-38-570Z_linestring.geojson
+2025-06-29T13:03:33.334Z [INFO]: [113/113] Traitement du trajet 350612075136687 - Wed Jun 04 2025 15:18:45 GMT+0000 (Coordinated Universal Time)
+2025-06-29T13:03:33.334Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T22-04-38-391Z_linestring.geojson
+2025-06-29T13:03:33.334Z [INFO]: 🎉 Migration terminée!
+2025-06-29T13:03:33.334Z [INFO]: 📈 Résultats:
+2025-06-29T13:03:33.334Z [INFO]:    ✅ Succès: 1
+2025-06-29T13:03:33.334Z [INFO]:    ⚠️  Ignorés: 112
+2025-06-29T13:03:33.334Z [INFO]:    ❌ Erreurs: 0
+2025-06-29T13:03:33.334Z [INFO]:    📊 Total: 113
+2025-06-29T13:03:33.335Z [INFO]: ✅ Migration terminée avec succès!
+2025-06-29T14:16:29.942Z [INFO]: ✅ Connexion à la base de données établie
+2025-06-29T14:16:29.944Z [INFO]: 🚀 Début de la migration des trajets...
+2025-06-29T14:16:29.968Z [INFO]: 📊 116 trajets trouvés dans la base de données
+2025-06-29T14:16:29.968Z [INFO]: [1/116] Traitement du trajet 352016700394133 - Sun Jun 29 2025 14:02:18 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.969Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-29T14-15-46-734Z_linestring.geojson
+2025-06-29T14:16:29.969Z [INFO]: [2/116] Traitement du trajet 350612075136688 - Sun Jun 29 2025 13:57:14 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.969Z [WARN]: [2/116] ⚠️  Fichier introuvable: /var/www/html/api_teltonika/IMEI/350612075136688/trip_2025-06-29T13-58-32-671Z_linestring
+2025-06-29T14:16:29.969Z [INFO]: [3/116] Traitement du trajet 350612075136688 - Sun Jun 29 2025 13:55:17 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.969Z [WARN]: [3/116] ⚠️  Fichier introuvable: /var/www/html/api_teltonika/IMEI/350612075136688/trip_2025-06-29T13-56-11-734Z_linestring
+2025-06-29T14:16:29.969Z [INFO]: [4/116] Traitement du trajet 350612075136688 - Sun Jun 29 2025 12:43:28 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.971Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136688/trip_2025-06-29T12-46-11-540Z_linestring.geojson
+2025-06-29T14:16:29.971Z [INFO]: [5/116] Traitement du trajet 350612075136687 - Sun Jun 29 2025 10:44:15 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.974Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-29T11-11-53-874Z_linestring.geojson
+2025-06-29T14:16:29.974Z [INFO]: [6/116] Traitement du trajet 352016700394133 - Sun Jun 29 2025 10:21:52 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.976Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-29T10-37-38-233Z_linestring.geojson
+2025-06-29T14:16:29.976Z [INFO]: [7/116] Traitement du trajet 352016700394133 - Sat Jun 28 2025 17:12:39 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.981Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T18-26-17-091Z_linestring.geojson
+2025-06-29T14:16:29.981Z [INFO]: [8/116] Traitement du trajet 350612075136687 - Sat Jun 28 2025 14:13:23 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.982Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-28T14-18-55-871Z_linestring.geojson
+2025-06-29T14:16:29.982Z [INFO]: [9/116] Traitement du trajet 352016700394133 - Sat Jun 28 2025 13:09:57 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.985Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T14-10-05-951Z_linestring.geojson
+2025-06-29T14:16:29.986Z [INFO]: [10/116] Traitement du trajet 352016700394133 - Sat Jun 28 2025 12:50:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.987Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T13-06-15-573Z_linestring.geojson
+2025-06-29T14:16:29.987Z [INFO]: [11/116] Traitement du trajet 350612075136687 - Sat Jun 28 2025 09:49:07 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.988Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-28T09-55-31-474Z_linestring.geojson
+2025-06-29T14:16:29.988Z [INFO]: [12/116] Traitement du trajet 350612075136687 - Fri Jun 27 2025 16:09:58 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.989Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T16-20-28-553Z_linestring.geojson
+2025-06-29T14:16:29.989Z [INFO]: [13/116] Traitement du trajet 350612075136687 - Fri Jun 27 2025 16:02:33 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.989Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T16-09-29-075Z_linestring.geojson
+2025-06-29T14:16:29.989Z [INFO]: [14/116] Traitement du trajet 350612075136687 - Fri Jun 27 2025 13:06:16 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.993Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T13-19-15-034Z_linestring.geojson
+2025-06-29T14:16:29.993Z [INFO]: [15/116] Traitement du trajet 350612075136687 - Fri Jun 27 2025 11:56:28 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.993Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T12-02-12-063Z_linestring.geojson
+2025-06-29T14:16:29.994Z [INFO]: [16/116] Traitement du trajet 350612075136687 - Fri Jun 27 2025 11:45:23 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.994Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T11-48-59-941Z_linestring.geojson
+2025-06-29T14:16:29.994Z [INFO]: [17/116] Traitement du trajet 350612075136687 - Fri Jun 27 2025 11:17:35 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.995Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T11-25-13-020Z_linestring.geojson
+2025-06-29T14:16:29.995Z [INFO]: [18/116] Traitement du trajet 350612075136687 - Fri Jun 27 2025 10:37:22 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.996Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T10-46-35-799Z_linestring.geojson
+2025-06-29T14:16:29.996Z [INFO]: [19/116] Traitement du trajet 350612075136687 - Fri Jun 27 2025 09:07:10 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.997Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-27T09-17-07-613Z_linestring.geojson
+2025-06-29T14:16:29.997Z [INFO]: [20/116] Traitement du trajet 350612075136687 - Thu Jun 26 2025 15:32:31 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.998Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T15-40-49-819Z_linestring.geojson
+2025-06-29T14:16:29.998Z [INFO]: [21/116] Traitement du trajet 350612075136687 - Thu Jun 26 2025 15:19:52 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.998Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T15-24-21-816Z_linestring.geojson
+2025-06-29T14:16:29.998Z [INFO]: [22/116] Traitement du trajet 350612075136687 - Thu Jun 26 2025 15:08:27 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:29.999Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T15-13-56-817Z_linestring.geojson
+2025-06-29T14:16:29.999Z [INFO]: [23/116] Traitement du trajet 350612075136687 - Thu Jun 26 2025 09:05:42 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.000Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T09-17-33-254Z_linestring.geojson
+2025-06-29T14:16:30.000Z [INFO]: [24/116] Traitement du trajet 350612075136687 - Thu Jun 26 2025 07:20:35 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.000Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T07-27-27-072Z_linestring.geojson
+2025-06-29T14:16:30.000Z [INFO]: [25/116] Traitement du trajet 350612075136687 - Thu Jun 26 2025 06:38:58 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.001Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-26T06-44-37-234Z_linestring.geojson
+2025-06-29T14:16:30.001Z [INFO]: [26/116] Traitement du trajet 350612075136687 - Tue Jun 24 2025 15:49:53 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.001Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T15-55-39-832Z_linestring.geojson
+2025-06-29T14:16:30.001Z [INFO]: [27/116] Traitement du trajet 350612075136687 - Tue Jun 24 2025 15:39:08 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.002Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T15-44-55-953Z_linestring.geojson
+2025-06-29T14:16:30.002Z [INFO]: [28/116] Traitement du trajet 350612075136687 - Tue Jun 24 2025 15:34:38 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.002Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T15-39-06-190Z_linestring.geojson
+2025-06-29T14:16:30.002Z [INFO]: [29/116] Traitement du trajet 350612075136687 - Tue Jun 24 2025 15:23:19 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.003Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T15-28-41-031Z_linestring.geojson
+2025-06-29T14:16:30.003Z [INFO]: [30/116] Traitement du trajet 350612075136687 - Tue Jun 24 2025 10:17:03 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.005Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T10-41-45-948Z_linestring.geojson
+2025-06-29T14:16:30.005Z [INFO]: [31/116] Traitement du trajet 350612075136687 - Tue Jun 24 2025 07:56:57 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.005Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-24T07-58-32-211Z_linestring.geojson
+2025-06-29T14:16:30.005Z [INFO]: [32/116] Traitement du trajet 350612075136687 - Mon Jun 23 2025 15:27:18 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.005Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T15-54-04-509Z_linestring.geojson
+2025-06-29T14:16:30.005Z [INFO]: [33/116] Traitement du trajet 350612075136687 - Mon Jun 23 2025 11:40:07 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.006Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T15-56-31-269Z_linestring.geojson
+2025-06-29T14:16:30.006Z [INFO]: [34/116] Traitement du trajet 350612075136687 - Mon Jun 23 2025 10:31:20 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.006Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-00-05-530Z_linestring.geojson
+2025-06-29T14:16:30.006Z [INFO]: [35/116] Traitement du trajet 350612075136687 - Mon Jun 23 2025 06:40:46 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.006Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-01-32-372Z_linestring.geojson
+2025-06-29T14:16:30.006Z [INFO]: [36/116] Traitement du trajet 350612075136687 - Sun Jun 22 2025 20:07:37 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.007Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-06-32-750Z_linestring.geojson
+2025-06-29T14:16:30.007Z [INFO]: [37/116] Traitement du trajet 350612075136687 - Sun Jun 22 2025 14:05:03 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.009Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-08-33-513Z_linestring.geojson
+2025-06-29T14:16:30.009Z [INFO]: [38/116] Traitement du trajet 350612075136687 - Sun Jun 22 2025 13:39:13 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.009Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-09-31-509Z_linestring.geojson
+2025-06-29T14:16:30.009Z [INFO]: [39/116] Traitement du trajet 350612075136687 - Sun Jun 22 2025 09:48:38 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.009Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-25-02-253Z_linestring.geojson
+2025-06-29T14:16:30.009Z [INFO]: [40/116] Traitement du trajet 352016700394133 - Sat Jun 21 2025 17:30:44 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.010Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-23T13-34-59-233Z_linestring.geojson
+2025-06-29T14:16:30.010Z [INFO]: [41/116] Traitement du trajet 350612075136687 - Sat Jun 21 2025 16:36:12 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.010Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T16-35-02-411Z_linestring.geojson
+2025-06-29T14:16:30.010Z [INFO]: [42/116] Traitement du trajet 350612075136687 - Sat Jun 21 2025 11:27:55 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.010Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T17-51-32-431Z_linestring.geojson
+2025-06-29T14:16:30.010Z [INFO]: [43/116] Traitement du trajet 352016700394133 - Fri Jun 20 2025 19:06:35 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.013Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-23T13-43-58-417Z_linestring.geojson
+2025-06-29T14:16:30.013Z [INFO]: [44/116] Traitement du trajet 350612075136687 - Fri Jun 20 2025 16:37:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.013Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-03-31-131Z_linestring.geojson
+2025-06-29T14:16:30.013Z [INFO]: [45/116] Traitement du trajet 352016700394133 - Fri Jun 20 2025 16:04:48 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.014Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-23T13-46-00-356Z_linestring.geojson
+2025-06-29T14:16:30.014Z [INFO]: [46/116] Traitement du trajet 350612075136687 - Fri Jun 20 2025 15:10:15 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.014Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-04-33-231Z_linestring.geojson
+2025-06-29T14:16:30.014Z [INFO]: [47/116] Traitement du trajet 350612075136687 - Fri Jun 20 2025 11:51:13 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.015Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-07-01-713Z_linestring.geojson
+2025-06-29T14:16:30.015Z [INFO]: [48/116] Traitement du trajet 350612075136687 - Fri Jun 20 2025 11:19:00 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.015Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-08-33-112Z_linestring.geojson
+2025-06-29T14:16:30.015Z [INFO]: [49/116] Traitement du trajet 350612075136687 - Fri Jun 20 2025 10:10:15 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.015Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-12-05-752Z_linestring.geojson
+2025-06-29T14:16:30.015Z [INFO]: [50/116] Traitement du trajet 350612075136687 - Fri Jun 20 2025 06:30:33 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.015Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-14-01-473Z_linestring.geojson
+2025-06-29T14:16:30.015Z [INFO]: [51/116] Traitement du trajet 350612075136687 - Thu Jun 19 2025 15:42:12 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.015Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-20-05-290Z_linestring.geojson
+2025-06-29T14:16:30.016Z [INFO]: [52/116] Traitement du trajet 350612075136687 - Thu Jun 19 2025 11:03:18 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.016Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-28-03-010Z_linestring.geojson
+2025-06-29T14:16:30.016Z [INFO]: [53/116] Traitement du trajet 350612075136687 - Thu Jun 19 2025 10:48:22 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.016Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-29-32-111Z_linestring.geojson
+2025-06-29T14:16:30.016Z [INFO]: [54/116] Traitement du trajet 350612075136687 - Thu Jun 19 2025 10:00:56 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.016Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-30-33-152Z_linestring.geojson
+2025-06-29T14:16:30.016Z [INFO]: [55/116] Traitement du trajet 350612075136687 - Thu Jun 19 2025 06:16:56 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.016Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-33-02-391Z_linestring.geojson
+2025-06-29T14:16:30.017Z [INFO]: [56/116] Traitement du trajet 350612075136687 - Wed Jun 18 2025 15:44:38 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.017Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-40-32-570Z_linestring.geojson
+2025-06-29T14:16:30.017Z [INFO]: [57/116] Traitement du trajet 352016700394133 - Wed Jun 18 2025 14:30:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.017Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-27T12-52-08-215Z_linestring.geojson
+2025-06-29T14:16:30.017Z [INFO]: [58/116] Traitement du trajet 350612075136687 - Wed Jun 18 2025 11:11:05 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.017Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-47-02-855Z_linestring.geojson
+2025-06-29T14:16:30.017Z [INFO]: [59/116] Traitement du trajet 350612075136687 - Wed Jun 18 2025 10:15:20 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.018Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-49-34-031Z_linestring.geojson
+2025-06-29T14:16:30.018Z [INFO]: [60/116] Traitement du trajet 352016700394133 - Wed Jun 18 2025 07:35:12 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.018Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-27T15-36-16-871Z_linestring.geojson
+2025-06-29T14:16:30.018Z [INFO]: [61/116] Traitement du trajet 350612075136687 - Wed Jun 18 2025 06:19:16 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.018Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T18-52-02-770Z_linestring.geojson
+2025-06-29T14:16:30.018Z [INFO]: [62/116] Traitement du trajet 352016700394133 - Wed Jun 18 2025 06:07:42 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.018Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-27T15-37-47-093Z_linestring.geojson
+2025-06-29T14:16:30.019Z [INFO]: [63/116] Traitement du trajet 352016700394133 - Wed Jun 18 2025 05:05:21 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.019Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-03-33-514Z_linestring.geojson
+2025-06-29T14:16:30.019Z [INFO]: [64/116] Traitement du trajet 352016700394133 - Tue Jun 17 2025 22:29:00 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.019Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-08-04-673Z_linestring.geojson
+2025-06-29T14:16:30.019Z [INFO]: [65/116] Traitement du trajet 352016700394133 - Tue Jun 17 2025 18:51:15 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.019Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-09-04-370Z_linestring.geojson
+2025-06-29T14:16:30.019Z [INFO]: [66/116] Traitement du trajet 350612075136687 - Tue Jun 17 2025 15:27:21 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.019Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-01-00-992Z_linestring.geojson
+2025-06-29T14:16:30.019Z [INFO]: [67/116] Traitement du trajet 350612075136687 - Tue Jun 17 2025 14:01:27 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.019Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-02-05-709Z_linestring.geojson
+2025-06-29T14:16:30.019Z [INFO]: [68/116] Traitement du trajet 352016700394133 - Tue Jun 17 2025 06:42:47 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.019Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-15-07-012Z_linestring.geojson
+2025-06-29T14:16:30.019Z [INFO]: [69/116] Traitement du trajet 350612075136687 - Tue Jun 17 2025 06:28:10 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.020Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-10-35-812Z_linestring.geojson
+2025-06-29T14:16:30.020Z [INFO]: [70/116] Traitement du trajet 352016700394133 - Mon Jun 16 2025 22:41:18 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.020Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-19-33-893Z_linestring.geojson
+2025-06-29T14:16:30.020Z [INFO]: [71/116] Traitement du trajet 352016700394133 - Mon Jun 16 2025 17:39:30 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.020Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-22-33-773Z_linestring.geojson
+2025-06-29T14:16:30.020Z [INFO]: [72/116] Traitement du trajet 350612075136687 - Mon Jun 16 2025 15:28:17 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.021Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-17-32-092Z_linestring.geojson
+2025-06-29T14:16:30.021Z [INFO]: [73/116] Traitement du trajet 350612075136687 - Mon Jun 16 2025 06:25:35 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.021Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-23-09-790Z_linestring.geojson
+2025-06-29T14:16:30.021Z [INFO]: [74/116] Traitement du trajet 352016700394133 - Mon Jun 16 2025 05:57:25 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.021Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-35-38-493Z_linestring.geojson
+2025-06-29T14:16:30.021Z [INFO]: [75/116] Traitement du trajet 352016700394133 - Sun Jun 15 2025 20:11:53 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.021Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-41-38-531Z_linestring.geojson
+2025-06-29T14:16:30.021Z [INFO]: [76/116] Traitement du trajet 352016700394133 - Sun Jun 15 2025 17:52:03 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.022Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-46-08-674Z_linestring.geojson
+2025-06-29T14:16:30.022Z [INFO]: [77/116] Traitement du trajet 352016700394133 - Sun Jun 15 2025 12:49:56 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.022Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-53-38-592Z_linestring.geojson
+2025-06-29T14:16:30.022Z [INFO]: [78/116] Traitement du trajet 352016700394133 - Sun Jun 15 2025 10:02:58 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.022Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-57-07-914Z_linestring.geojson
+2025-06-29T14:16:30.022Z [INFO]: [79/116] Traitement du trajet 352016700394133 - Sun Jun 15 2025 08:10:26 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.022Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T07-59-40-871Z_linestring.geojson
+2025-06-29T14:16:30.022Z [INFO]: [80/116] Traitement du trajet 350612075136687 - Sun Jun 15 2025 07:09:31 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.022Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-35-03-789Z_linestring.geojson
+2025-06-29T14:16:30.022Z [INFO]: [81/116] Traitement du trajet 350612075136687 - Sun Jun 15 2025 06:47:14 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.023Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-35-33-273Z_linestring.geojson
+2025-06-29T14:16:30.023Z [INFO]: [82/116] Traitement du trajet 352016700394133 - Sun Jun 15 2025 04:22:12 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.023Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T08-03-10-331Z_linestring.geojson
+2025-06-29T14:16:30.023Z [INFO]: [83/116] Traitement du trajet 352016700394133 - Sat Jun 14 2025 21:00:38 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.023Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T08-09-39-371Z_linestring.geojson
+2025-06-29T14:16:30.023Z [INFO]: [84/116] Traitement du trajet 350612075136687 - Sat Jun 14 2025 17:26:57 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.023Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-41-35-391Z_linestring.geojson
+2025-06-29T14:16:30.023Z [INFO]: [85/116] Traitement du trajet 350612075136687 - Sat Jun 14 2025 17:09:00 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.023Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-42-01-691Z_linestring.geojson
+2025-06-29T14:16:30.023Z [INFO]: [86/116] Traitement du trajet 352016700394133 - Sat Jun 14 2025 16:48:37 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.024Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/352016700394133/trip_2025-06-28T08-21-07-812Z_linestring.geojson
+2025-06-29T14:16:30.024Z [INFO]: [87/116] Traitement du trajet 350612075136687 - Sat Jun 14 2025 16:47:26 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.024Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-42-32-529Z_linestring.geojson
+2025-06-29T14:16:30.024Z [INFO]: [88/116] Traitement du trajet 350612075136687 - Sat Jun 14 2025 14:21:03 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.024Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-43-31-713Z_linestring.geojson
+2025-06-29T14:16:30.024Z [INFO]: [89/116] Traitement du trajet 350612075136687 - Fri Jun 13 2025 17:21:43 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.024Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-51-01-293Z_linestring.geojson
+2025-06-29T14:16:30.024Z [INFO]: [90/116] Traitement du trajet 350612075136687 - Fri Jun 13 2025 15:37:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.025Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-52-03-951Z_linestring.geojson
+2025-06-29T14:16:30.025Z [INFO]: [91/116] Traitement du trajet 350612075136687 - Fri Jun 13 2025 10:25:37 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.025Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-55-33-651Z_linestring.geojson
+2025-06-29T14:16:30.025Z [INFO]: [92/116] Traitement du trajet 350612075136687 - Fri Jun 13 2025 06:33:43 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.025Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T19-57-33-490Z_linestring.geojson
+2025-06-29T14:16:30.025Z [INFO]: [93/116] Traitement du trajet 350612075136687 - Thu Jun 12 2025 15:18:05 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.026Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-05-06-211Z_linestring.geojson
+2025-06-29T14:16:30.026Z [INFO]: [94/116] Traitement du trajet 350612075136687 - Thu Jun 12 2025 10:21:57 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.026Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-08-02-451Z_linestring.geojson
+2025-06-29T14:16:30.026Z [INFO]: [95/116] Traitement du trajet 350612075136687 - Thu Jun 12 2025 06:19:36 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.027Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-10-02-374Z_linestring.geojson
+2025-06-29T14:16:30.027Z [INFO]: [96/116] Traitement du trajet 350612075136687 - Wed Jun 11 2025 16:11:02 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.027Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-15-31-773Z_linestring.geojson
+2025-06-29T14:16:30.027Z [INFO]: [97/116] Traitement du trajet 350612075136687 - Wed Jun 11 2025 16:02:46 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.028Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-16-01-592Z_linestring.geojson
+2025-06-29T14:16:30.028Z [INFO]: [98/116] Traitement du trajet 350612075136687 - Wed Jun 11 2025 15:34:52 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.028Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-17-33-789Z_linestring.geojson
+2025-06-29T14:16:30.028Z [INFO]: [99/116] Traitement du trajet 350612075136687 - Wed Jun 11 2025 06:42:42 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.028Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-21-04-869Z_linestring.geojson
+2025-06-29T14:16:30.028Z [INFO]: [100/116] Traitement du trajet 350612075136687 - Tue Jun 10 2025 15:30:18 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.028Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-28-34-673Z_linestring.geojson
+2025-06-29T14:16:30.028Z [INFO]: [101/116] Traitement du trajet 350612075136687 - Tue Jun 10 2025 10:28:29 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.029Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-32-31-475Z_linestring.geojson
+2025-06-29T14:16:30.029Z [INFO]: [102/116] Traitement du trajet 350612075136687 - Tue Jun 10 2025 07:19:02 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.029Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-33-31-632Z_linestring.geojson
+2025-06-29T14:16:30.029Z [INFO]: [103/116] Traitement du trajet 350612075136687 - Tue Jun 10 2025 06:27:13 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.029Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-36-31-731Z_linestring.geojson
+2025-06-29T14:16:30.029Z [INFO]: [104/116] Traitement du trajet 350612075136687 - Mon Jun 09 2025 09:27:39 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.030Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-53-32-852Z_linestring.geojson
+2025-06-29T14:16:30.030Z [INFO]: [105/116] Traitement du trajet 350612075136687 - Mon Jun 09 2025 09:01:33 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.030Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T20-54-35-012Z_linestring.geojson
+2025-06-29T14:16:30.030Z [INFO]: [106/116] Traitement du trajet 350612075136687 - Sat Jun 07 2025 21:07:36 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.031Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-07-37-831Z_linestring.geojson
+2025-06-29T14:16:30.031Z [INFO]: [107/116] Traitement du trajet 350612075136687 - Sat Jun 07 2025 11:03:15 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.031Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-13-36-156Z_linestring.geojson
+2025-06-29T14:16:30.031Z [INFO]: [108/116] Traitement du trajet 350612075136687 - Fri Jun 06 2025 19:39:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.031Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-20-03-369Z_linestring.geojson
+2025-06-29T14:16:30.031Z [INFO]: [109/116] Traitement du trajet 350612075136687 - Fri Jun 06 2025 15:11:19 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.031Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-23-03-370Z_linestring.geojson
+2025-06-29T14:16:30.031Z [INFO]: [110/116] Traitement du trajet 350612075136687 - Fri Jun 06 2025 12:39:55 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.032Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-26-02-649Z_linestring.geojson
+2025-06-29T14:16:30.032Z [INFO]: [111/116] Traitement du trajet 350612075136687 - Fri Jun 06 2025 11:12:04 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.032Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-27-01-113Z_linestring.geojson
+2025-06-29T14:16:30.032Z [INFO]: [112/116] Traitement du trajet 350612075136687 - Fri Jun 06 2025 10:30:14 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.033Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-29-37-592Z_linestring.geojson
+2025-06-29T14:16:30.033Z [INFO]: [113/116] Traitement du trajet 350612075136687 - Fri Jun 06 2025 05:19:22 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.033Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-39-14-793Z_linestring.geojson
+2025-06-29T14:16:30.033Z [INFO]: [114/116] Traitement du trajet 350612075136687 - Thu Jun 05 2025 19:25:08 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.033Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T21-47-39-230Z_linestring.geojson
+2025-06-29T14:16:30.033Z [INFO]: [115/116] Traitement du trajet 350612075136687 - Wed Jun 04 2025 19:42:52 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.034Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T22-00-38-570Z_linestring.geojson
+2025-06-29T14:16:30.034Z [INFO]: [116/116] Traitement du trajet 350612075136687 - Wed Jun 04 2025 15:18:45 GMT+0000 (Coordinated Universal Time)
+2025-06-29T14:16:30.034Z [INFO]: ℹ️  Fichier déjà au nouveau format: /var/www/html/api_teltonika/IMEI/350612075136687/trip_2025-06-23T22-04-38-391Z_linestring.geojson
+2025-06-29T14:16:30.034Z [INFO]: 🎉 Migration terminée!
+2025-06-29T14:16:30.034Z [INFO]: 📈 Résultats:
+2025-06-29T14:16:30.034Z [INFO]:    ✅ Succès: 0
+2025-06-29T14:16:30.034Z [INFO]:    ⚠️  Ignorés: 114
+2025-06-29T14:16:30.034Z [INFO]:    ❌ Erreurs: 2
+2025-06-29T14:16:30.034Z [INFO]:    📊 Total: 116
+2025-06-29T14:16:30.034Z [WARN]: ⚠️  2 fichiers n'ont pas pu être migrés. Consultez les logs pour plus de détails.
+2025-06-29T14:16:30.035Z [INFO]: ✅ Migration terminée avec succès!
